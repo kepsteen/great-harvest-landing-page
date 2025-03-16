@@ -1,25 +1,16 @@
-import { IoSearch } from "react-icons/io5";
-import { RxHamburgerMenu } from "react-icons/rx";
-
-
-
+import DesktopNav from "./DesktopNav";
+import MobileNav from "./MobileNav";
 
 export default function Navbar() {
   return (
     <>
-    <nav className="p-5">
+    <nav className="px-5 py-5 lg:px-11 max-w-[1240px] mx-auto" role="navigation" aria-label="Main Navigation">
       <div className="flex justify-between">
-        <div className="w-1/3 min-w-[100px]">
-          <img className="w-full" src="./images/great-harvest-logo.png" />
+        <div className="w-1/3 min-w-[100px] max-w-[160px]">
+          <img className="w-full" src="./images/great-harvest-logo.png" alt="Great Harvest Logo" />
         </div>
-        <div className="flex items-center gap-x-6">
-          <div>
-            <IoSearch size={27}/>
-          </div>
-          <div>
-            <RxHamburgerMenu size={27} />
-          </div>
-        </div>
+        <MobileNav />
+        <DesktopNav />
       </div>
     </nav>
     </>
