@@ -9,20 +9,21 @@ export default function DesktopNav() {
       <ul className="flex items-center gap-x-10">
         <li>
           <div>
-            <a className="text-[20px] font-bold flex items-center gap-x-2">
+            <a className="text-[20px] font-bold flex items-center gap-x-2" href="#" aria-label="Location dropdown" aria-haspopup="true" aria-expanded="false">
               <span>Locations</span>
-              <BsChevronDown size={15}/>
+              <BsChevronDown size={15} />
+              {/* once dropdown functionality is included need to update expanded */}
             </a>
           </div>
         </li>
         <li>
           <div>
-            <a className="text-[20px] font-bold">Research</a>
+            <a className="text-[20px] font-bold" href="#" aria-label="Research">Research</a>
           </div>
         </li>
         <li>
           <div>
-            <a className="text-[20px] font-bold flex items-center gap-x-2">
+            <a className="text-[20px] font-bold flex items-center gap-x-2" href="#" aria-label="About Us dropdown"  aria-haspopup="true" aria-expanded="false">
               <span>About Us</span>
               <BsChevronDown size={15}/>
             </a>
@@ -30,13 +31,14 @@ export default function DesktopNav() {
         </li>
         <li>
           <div>
-            <a className="text-[20px] font-bold p-5">Ready to Franchise</a>
+            <a className="text-[20px] font-bold p-5 bg-darkGreen text-white" href="#" aria-label="Ready to Franchise">Ready to Franchise</a>
           </div>
         </li>
-
       </ul>
       <div className="flex items-center pl-10">
-        <IoSearch size={30} />
+        <button aria-label="Search">
+          <IoSearch size={30} />
+        </button>
       </div>
     </div>
     </>
