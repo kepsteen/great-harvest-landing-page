@@ -1,24 +1,80 @@
 @import "tailwindcss";
 
 :root {
-	--background: #ffffff;
+	--background: #f5f3f1;
 	--foreground: #171717;
+	--primary-content: #302b24;
+	--secondary-content: #ffffff;
+	--secondary-background: #0a2240;
+	--accent: #b13c26;
 }
 
 @theme inline {
 	--color-background: var(--background);
 	--color-foreground: var(--foreground);
+	--color-primary-content: var(--primary-content);
+	--color-secondary-content: var(
+		--secondary-content
+	);
+	--color-secondary-background: var(
+		--secondary-background
+	);
+	--color-accent: var(--accent);
 	--font-sans: var(--font-geist-sans);
 	--font-mono: var(--font-geist-mono);
-	--color-brandBlue: #0A2240;
+	--color-brandBlue: #0a2240;
 	--color-darkGreen: rgb(108, 134, 61);
-	--color-cream: #F5F3F1;
-	--color-logoOrange: #DE6048;
-	--color-lightBeigeOp: #F5F3F1B2;
+	--color-cream: #f5f3f1;
+	--color-logoOrange: #de6048;
+	--color-lightBeigeOp: #f5f3f1b2;
 }
 
 body {
 	background: var(--background);
 	color: var(--foreground);
 	font-family: Arial, Helvetica, sans-serif;
+}
+
+@utility scalloped-border {
+	.scalloped-border {
+		position: relative;
+		padding: 1rem;
+	}
+
+	.scalloped-border::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		border: 2px solid var(--color-accent);
+		background: radial-gradient(
+					circle at 100% 100%,
+					transparent 0.5rem,
+					var(--color-accent) 0.5rem
+				)
+				top left,
+			radial-gradient(
+					circle at 0 100%,
+					transparent 0.5rem,
+					var(--color-accent) 0.5rem
+				)
+				top right,
+			radial-gradient(
+					circle at 100% 0,
+					transparent 0.5rem,
+					var(--color-accent) 0.5rem
+				)
+				bottom left,
+			radial-gradient(
+					circle at 0 0,
+					transparent 0.5rem,
+					var(--color-accent) 0.5rem
+				)
+				bottom right;
+		background-size: 51% 51%;
+		background-repeat: no-repeat;
+		border-radius: 1rem;
+	}
 }
