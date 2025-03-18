@@ -13,21 +13,22 @@ const metricCardData: MetricCard[] = [
 		description:
 			"Great Harvest Hub stores are now smaller and more efficient, and thus more affordable. Same AUV. Same amazing product. Same quality experience and customer service.",
 		metric: "$900,000",
-		imgUrl: "/catering-tray-1.jpg",
+		imgUrl: "/images/catering-tray-1.jpg",
 	},
 	{
 		title: "Initial Investment",
 		description:
 			"Your investment will quickly multiply and pay dividends.",
 		metric: "$250,000",
-		imgUrl: "/honey-whole-wheat-5-simple.jpg",
+		imgUrl:
+			"/images/honey-whole-wheat-5-simple.jpg",
 	},
 	{
 		title: "Projected Growth",
 		description:
 			"Great Harvest is such a good company with delicious, fresh bread that satiates and satisfies customers. Join today to own your own bakery and bring fresh bread to locals around you.",
 		metric: "45%",
-		imgUrl: "/fresh-baked-20x30.jpg",
+		imgUrl: "/images/fresh-baked-20x30.jpg",
 	},
 ];
 
