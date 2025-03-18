@@ -4,7 +4,7 @@ import  './landingPage.css'
 export default function LandingPage() {
   return (
     <>
-      <div className="h-screen md:h-[110vh] lg:h-[100vh] lg:flex-grow w-full bg-[url('/images/mobile-harvest-landing-image.png')] lg:bg-[url('/images/desktop-harvest-landing-image.png')] bg-[300%_auto] md:bg-[125%_auto] lg:bg-[100%_auto] bg-[49%_55%] flex flex-col landing-section-container md:pb-16" aria-hidden="true">
+      <div className="landing-section-container" aria-hidden="true">
         <div className="mx-auto lg:mx-0 my-auto w-full lg:w-1/2 flex flex-col gap-y-26">
           <div className="flex flex-col text-center">
             <h1 className="text-[74px] text-cream text-shadow leading-20">Harvest</h1>
