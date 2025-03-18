@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function TestimonialsSection() {
 	return (
 		<>
-			<div className="bg-primary h-[3px] w-full my-[12px]"></div>
+			<div className="bg-brandBlue h-[3px] w-full my-[12px]"></div>
 			<section>
 				<div className="px-[38px] pt-[38px] pb-[30px] md:px-[171px] lg:hidden">
 					<Image

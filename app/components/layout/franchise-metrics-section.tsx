@@ -89,7 +89,7 @@ export default function FranchiseMetricsSection() {
 										</h3>
 									</div>
 								</div>
-								<p className="text-primary-content text-[3rem]">
+								<p className="text-foreground text-[3rem]">
 									{metricCard.metric}
 								</p>
 								<p className="pl-[60px] pr-[46px] text-[18px] text-black">
