@@ -25,7 +25,7 @@ const metricCardData: MetricCard[] = [
 	{
 		title: "Projected Growth",
 		description:
-			"Great Harvest is such a good company with delicious, fresh bread that satiates and satisfies customers. Join today to own your own bakery and bring fresh bread to locals around you",
+			"Great Harvest is such a good company with delicious, fresh bread that satiates and satisfies customers. Join today to own your own bakery and bring fresh bread to locals around you.",
 		metric: "45%",
 		imgUrl: "/fresh-baked-20x30.jpg",
 	},
@@ -34,22 +34,22 @@ const metricCardData: MetricCard[] = [
 export default function FranchiseMetricsSection() {
 	return (
 		<>
-			<section className="bread-pattern-bg">
-				<h2 className="text-center">
+			<section className="bread-pattern-bg px-[13px]">
+				<h2 className="text-center text-[3rem]">
 					Why Great Harvest?
 				</h2>
-				<p className="text-center mb-[3.125rem]">
+				<p className="text-center mb-[3.125rem] text-[1.75rem]">
 					Great Harvest is Montana&apos;s
 					baked-fresh-daily franchise concept
 					featuring only Montana, USA wheat! Taste
 					a little Montana in every single bite!
 				</p>
 				<div>
-					<ul className="flex flex-col items-center gap-[3.75rem]">
+					<ul className="flex flex-col md:flex-row md:flex-wrap md:justify-center md:items-start items-center gap-[3.75rem]">
 						{metricCardData.map((metricCard) => (
 							<li
 								key={metricCard.title}
-								className="w-full flex flex-col items-center"
+								className="w-full md:w-[45%] lg:w-[30%] flex flex-col items-center"
 							>
 								<div className="relative w-full flex flex-col items-center pb-4">
 									<div className="w-[216px] h-[216px] rounded-full relative">
@@ -91,7 +91,7 @@ export default function FranchiseMetricsSection() {
 								<p className="text-primary-content text-[3rem]">
 									{metricCard.metric}
 								</p>
-								<p className="pl-[60px] pr-[46px]">
+								<p className="pl-[60px] pr-[46px] text-[18px] text-black">
 									{metricCard.description}
 								</p>
 							</li>

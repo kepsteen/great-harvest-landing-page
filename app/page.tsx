@@ -1,6 +1,6 @@
 import Navbar from "./components/navbar/Navbar";
 import LandingPage from "./landing/LandingPage";
-import FranchiseMetricsSection from "@/components/layout/franchise-metrics-section";
+import FranchiseMetricsSection from "@/app/components/layout/franchise-metrics-section";
 
 export default function Home() {
 	return (
