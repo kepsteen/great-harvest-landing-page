@@ -22,6 +22,11 @@
 	--color-accent: var(--accent);
 	--font-sans: var(--font-geist-sans);
 	--font-mono: var(--font-geist-mono);
+	--color-brandBlue: #0A2240;
+	--color-darkGreen: rgb(108, 134, 61);
+	--color-cream: #F5F3F1;
+	--color-logoOrange: #DE6048;
+	--color-lightBeigeOp: #F5F3F1B2;
 }
 
 body {
