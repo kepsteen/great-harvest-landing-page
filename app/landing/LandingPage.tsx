@@ -4,7 +4,7 @@ import  './landingPage.css'
 export default function LandingPage() {
   return (
     <>
-      <div className="landing-section-container" aria-hidden="true">
+      <div className="landing-section-container flex-grow" aria-hidden="true">
         <div className="mx-auto lg:mx-0 my-auto w-full lg:w-1/2 flex flex-col gap-y-26">
           <div className="flex flex-col text-center">
             <h1 className="text-[74px] text-cream text-shadow leading-20">Harvest</h1>
