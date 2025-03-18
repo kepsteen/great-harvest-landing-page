@@ -36,7 +36,7 @@ export default function DesktopNav() {
         </li>
       </ul>
       <div className="flex items-center pl-10">
-        <button aria-label="Search">
+        <button className="cursor-pointer" aria-label="Search">
           <IoSearch size={30} />
         </button>
       </div>
