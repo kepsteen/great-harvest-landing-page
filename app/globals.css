@@ -1,19 +1,20 @@
 @import "tailwindcss";
 
 :root {
-	--background: #f5f3f1;
+	--cream: #f5f3f1;
 	--foreground: #302b24;
-	--primary-content: #302b24;
 	--secondary-content: #ffffff;
-	--primary: #0a2240;
+	--logoOrange: #de6048;
+	--brandBlue: #0a2240;
 	--accent: #b13c26;
 	--second-text: #302b24;
+	--darkGreen: rgb(108, 134, 61);
+	--lightBeigeOp: #f5f3f1b2;
 }
 
 @theme inline {
 	--color-background: var(--background);
 	--color-foreground: var(--foreground);
-	--color-primary-content: var(--primary-content);
 	--color-secondary-content: var(
 		--secondary-content
 	);
@@ -21,11 +22,11 @@
 	--color-accent: var(--accent);
 	--font-sans: var(--font-geist-sans);
 	--font-mono: var(--font-geist-mono);
-	--color-brandBlue: #0a2240;
-	--color-darkGreen: rgb(108, 134, 61);
-	--color-cream: #f5f3f1;
-	--color-logoOrange: #de6048;
-	--color-lightBeigeOp: #f5f3f1b2;
+	--color-brandBlue: var(--brandBlue);
+	--color-darkGreen: var(--darkGreen);
+	--color-cream: var(--cream);
+	--color-logoOrange: var(--logoOrange);
+	--color-lightBeigeOp: var(--lightBeigeOp);
 	--color-second-text: var(--second-text);
 }
 
