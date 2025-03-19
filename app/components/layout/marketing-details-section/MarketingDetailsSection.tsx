@@ -1,33 +1,6 @@
 import Image from "next/image"
 import './marketing-details-section.css'
-
-interface MarketingCard {
-  icon: string;
-  alt: string;
-  title: string;
-  passage: string;
-}
-
-const MarketingCardArr: MarketingCard[] = [
- {
-  icon: '/man-presenting.svg',
-  alt: 'figure presenting',
-  title: 'Dedicated Training and Development Specialist',
-  passage: 'From inital converstations and info sharing right through the training process and ultimately grand opening, Great Harvest team members are by your side through it all.'
- },
- {
-  icon: './mini-bakery.svg',
-  alt: 'mini bakery',
-  title: 'Hub and Spoke Bakery Café models',
-  passage: 'Whether you are interested in one store, the standard hub and two spokes, or building a bigger Great Harvest empire, our team is ready to get you setup for success with proven methods and processes that will help ensure a smooth entry into the Great Harvest franchise world.'
- },
- {
-  icon: './lightbulb.svg',
-    alt: 'lightbulb',
-  title: 'Marketing Strategies',
-  passage: 'Our marketing pros will help guide you through all phases of marketing. From hyper local to nationwide branding, we will be there to drive business to your Great Harvest!'
- }
-]
+import { MarketingCardData } from "./data/marketingCardData";
 
 export default function MarketingDetailsSection() {
   return (
@@ -54,8 +27,8 @@ export default function MarketingDetailsSection() {
           </div>
           <div className="pb-10">
             <ul className="md:flex lg:mx-auto lg:max-w-[1024px]">
-            {MarketingCardArr.map((marketingCard, index) => (
-              <li key={index} className='pt-12 md:w-1/3'>
+            {MarketingCardData.map((marketingCard, index) => (
+              <li key={index} className='pt-12 lg:pt-17.5 md:w-1/3'>
                 <div className="flex justify-center">
                   <Image src={marketingCard.icon} alt={marketingCard.alt} width={61} height={61} />
                 </div>
