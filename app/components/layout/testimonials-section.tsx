@@ -1,9 +1,9 @@
 import Image from "next/image";
-
+import Divider from "../ui/divider";
 export default function TestimonialsSection() {
 	return (
 		<>
-			<div className="bg-brandBlue h-[3px] w-full my-[12px]"></div>
+			<Divider />
 			<section>
 				<div className="px-[38px] pt-[38px] pb-[30px] md:px-[171px] lg:hidden">
 					<Image
