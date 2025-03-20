@@ -17,6 +17,7 @@
 @media screen and (min-width: 1024px) {
   .marketing-section {
     max-width: none;
+    min-height:auto;
     background-image: url('/images/desktop-bread-bg.png');;
   }
 }

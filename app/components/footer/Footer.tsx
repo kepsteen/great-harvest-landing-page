@@ -13,15 +13,15 @@ export default function Footer() {
   return (
     <>
       <footer className="bg-brandBlue text-white">
-        <div className="py-10">
-          <div className="flex flex-col gap-y-5 items-center">
+        <div className="flex flex-col md:flex-row md:justify-between md:w-2/3 md:mx-auto py-10">
+          <div className="flex flex-col md:order-2 gap-y-5 items-center">
             <div className="flex">
               <h1 className="font-bold text-[20px]">Great Harvest</h1>
             </div>
             {footerNavMap}
           </div>
-          <div className="flex flex-col items-center">
-            <div className="pt-10 gap-y-5 grid grid-rows-2 grid-cols-[50px_auto] items-center">
+          <div className="flex flex-col md:order-1 items-center">
+            <div className="pt-10 md:pt-0 gap-y-5 grid grid-rows-2 grid-cols-[50px_auto] items-center">
                 <div className="pr-2">
                 <Image src="./location-pointer.svg" alt="location pointer" width={46} height={46} />
                 </div>
