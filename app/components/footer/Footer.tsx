@@ -20,19 +20,19 @@ export default function Footer() {
             </div>
             {footerNavMap}
           </div>
-          <div className="flex flex-col md:order-1 items-center">
-            <div className="pt-10 md:pt-0 gap-y-5 grid grid-rows-2 grid-cols-[50px_auto] items-center">
+          <div className="flex flex-col md:order-1 items-center lg:items-start">
+            <div className="pt-10 md:pt-0 gap-y-5 lg:gap-x-2 grid grid-rows-2 lg:grid-rows-1 grid-cols-[50px_auto] lg:grid-cols-[50px_auto_50px_auto] items-center">
                 <div className="pr-2">
-                <Image src="./location-pointer.svg" alt="location pointer" width={46} height={46} />
+                  <Image src="./location-pointer.svg" alt="location pointer" width={46} height={46} />
                 </div>
                 <div>
                   <h2>28 S Montana Street <br/> Dillon, MT 59725</h2>
                 </div>
                 <div className="pr-2">
-                <Image src="./android-phone.svg" alt="location pointer" width={46} height={46} />
+                  <Image src="./android-phone.svg" alt="location pointer" width={46} height={46} />
                 </div>
                 <div>
-                  <h2>1.800.442.0424 <br/> 406.683.6842 </h2>
+                  <h2 className="lg:text-end">1.800.442.0424 <br/> 406.683.6842 </h2>
                 </div>
             </div>
             <div className="flex justify-center gap-x-5 pt-5">
