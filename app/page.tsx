@@ -5,6 +5,8 @@ import TestimonialsSection from "@/app/components/layout/testimonials-section";
 import MarketingDetailsSection from "./components/layout/marketing-details-section/MarketingDetailsSection";
 import Footer from "./components/footer/Footer";
 import FranchiseStepsSection from "./components/layout/franchise-steps-section";
+import FAQSection from "./components/layout/faq-section";
+
 export default function Home() {
 	return (
 		<div className="flex flex-col relative min-h-screen">
@@ -14,6 +16,7 @@ export default function Home() {
 			<MarketingDetailsSection />
 			<TestimonialsSection />
 			<FranchiseStepsSection />
+			<FAQSection />
 			<Footer />
 		</div>
 	);
