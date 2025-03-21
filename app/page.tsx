@@ -7,12 +7,14 @@ import Footer from "./components/footer/Footer";
 import FranchiseStepsSection from "./components/layout/franchise-steps-section";
 import FAQSection from "./components/layout/faq-section";
 import ContactSection2 from "./components/layout/contact-section-2/contact-section-2";
+import ContactSection from "./components/layout/contact-section";
 
 export default function Home() {
 	return (
 		<div className="flex flex-col relative min-h-screen">
 			<Navbar />
 			<LandingPage />
+			<ContactSection />
 			<FranchiseMetricsSection />
 			<MarketingDetailsSection />
 			<TestimonialsSection />
