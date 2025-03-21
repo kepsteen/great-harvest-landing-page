@@ -1,10 +1,14 @@
 import Image from "next/image";
-
+import Divider from "../ui/divider";
 export default function TestimonialsSection() {
 	return (
 		<>
-			<div className="bg-brandBlue h-[3px] w-full my-[12px]"></div>
-			<section>
+			<Divider
+				color="bg-brandBlue"
+				bgColor="bg-cream"
+				className="py-[12px]"
+			/>
+			<section className="bg-cream">
 				<div className="px-[38px] pt-[38px] pb-[30px] md:px-[171px] lg:hidden">
 					<Image
 						src="/wheat.svg"
@@ -36,6 +40,7 @@ export default function TestimonialsSection() {
 						</p>
 						<div className="flex justify-center items-center gap-x-4 mb-[163px] md:mb-0 item-two md:w-1/2">
 							<div className="w-[180px] h-[180px] rounded-full overflow-hidden shrink-0">
+								{/* // Todo: Add testimonial image */}
 								<img
 									src="https://images.unsplash.com/photo-1484863137850-59afcfe05386?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cGVyc29uJTIwc21pbGluZ3xlbnwwfHwwfHx8MA%3D%3D"
 									alt="testimonial"
