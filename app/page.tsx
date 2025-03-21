@@ -6,6 +6,7 @@ import MarketingDetailsSection from "./components/layout/marketing-details-secti
 import Footer from "./components/footer/Footer";
 import FranchiseStepsSection from "./components/layout/franchise-steps-section";
 import FAQSection from "./components/layout/faq-section";
+import ContactSection2 from "./components/layout/contact-section-2/contact-section-2";
 
 export default function Home() {
 	return (
@@ -17,6 +18,7 @@ export default function Home() {
 			<TestimonialsSection />
 			<FranchiseStepsSection />
 			<FAQSection />
+			<ContactSection2 />
 			<Footer />
 		</div>
 	);

@@ -14,8 +14,8 @@ export default function FranchiseStepsSection() {
 		<>
 			<section className="lg:flex lg:flex-wrap lg:gap-4 bg-cream lg:bg-darkGreen px-[40px] lg:px-[80px] lg:items-center py-[30px]">
 				<div className="relative w-full h-[400px] max-w-[400px] mx-auto overflow-hidden py-10 lg:order-2 lg:basis-[calc(40%-80px)]">
-					<div className="absolute top-14 right-10 bottom-0 left-0 bg-darkGreen z-30 flex flex-col justify-center items-center lg:bg-cream px-4">
-						<h2 className="text-[3rem] text-white text-center lg:text-primary">
+					<div className="absolute top-14 right-10 bottom-0 left-0 bg-darkGreen z-30 flex flex-col justify-center items-center lg:bg-cream p-4">
+						<h2 className="text-[3rem] text-white text-center lg:text-primary leading-snug mb-[10px]">
 							Winning with Great Harvest
 						</h2>
 						<p className="text-[1.75rem] text-cream text-center lg:text-primary">

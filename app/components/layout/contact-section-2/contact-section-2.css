@@ -1,0 +1,22 @@
+.contact-section-2 {
+	background-image: url("/images/contact-mobile-bread-bg.png");
+	min-height: 100vh;
+	display: flex;
+	margin: 0 auto;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 768px) {
+	.contact-section-2 {
+		background-image: url("/images/contact-tablet-bread-bg.png");
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.contact-section-2 {
+		min-height: auto;
+		background-image: url("/images/desktop-bread-bg.png");
+	}
+}
