@@ -4,18 +4,15 @@ export default function LandingPage() {
 	return (
 		<>
 		<section className="landing-section">
-		<div className="landing-section-wrapper bg-darkGreen">
-			<div className="lg:hidden">
-			<div className="stroke first-stroke"></div>
+		<div className="landing-section-wrapper bg-darkGreen lg:bg-white">
+			<div className="stroke-wrapper lg:hidden">
+
+			<div className="stroke first-stroke lg:hidden"></div>
 			<div className="stroke second-stroke"></div>
 			<div className="stroke third-stroke"></div>
 			</div>
-			{/* <div className="stroke first-stroke"></div>
-			<div className="stroke second-stroke"></div>
-			<div className="stroke third-stroke"></div> */}
 				<div
-					className="landing-section-container flex-grow"
-					aria-hidden="true"
+					className="landing-section-container"
 				>
 					<div className="mx-auto lg:mx-0 my-auto w-full lg:w-1/2 flex flex-col gap-y-26">
 						<div className="flex flex-col text-center">
