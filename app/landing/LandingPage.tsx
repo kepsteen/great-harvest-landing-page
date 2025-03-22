@@ -3,10 +3,16 @@ import "./landingPage.css";
 export default function LandingPage() {
 	return (
 		<>
+		<section className="landing-section">
 		<div className="landing-section-wrapper bg-darkGreen">
+			<div className="lg:hidden">
 			<div className="stroke first-stroke"></div>
 			<div className="stroke second-stroke"></div>
 			<div className="stroke third-stroke"></div>
+			</div>
+			{/* <div className="stroke first-stroke"></div>
+			<div className="stroke second-stroke"></div>
+			<div className="stroke third-stroke"></div> */}
 				<div
 					className="landing-section-container flex-grow"
 					aria-hidden="true"
@@ -39,6 +45,7 @@ export default function LandingPage() {
 				</div>
 
 			</div>
+		</section>
 		</>
 	);
 }
