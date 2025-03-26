@@ -26,19 +26,19 @@ export default function TestimonialsSection() {
 						className="mx-auto"
 					/>
 				</div>
-				<div className="px-[52px]">
+				<div className="px-2 sm:px-[52px]">
 					<h2 className="text-center text-[3rem] mb-[55px]">
 						Testimonials
 					</h2>
-					<div className="md:flex md:gap-x-6 md:mb-[63px] md:items-center lg:px-[256px]">
-						<p className="mb-[20px] md:mb-0 text-second-text font-bold item-one md:w-1/2">
+					<div className="md:flex md:gap-x-6 md:mb-[63px] md:items-center max-w-[1040px] mx-auto lg:px-[50px]">
+						<p className="mb-[20px] md:mb-0 text-second-text font-bold item-one md:w-3/5 text-center md:pr-4">
 							A very long and descriptive yet
 							inspiring and motivating quote from
 							Happy Franchisee about how Great
 							Harvest was the right choice because
 							of XYZ and the benefits now are ABC.
 						</p>
-						<div className="flex justify-center items-center gap-x-4 mb-[163px] md:mb-0 item-two md:w-1/2">
+						<div className="flex justify-center items-center gap-x-4 mb-[163px] md:mb-0 item-two md:w-2/5">
 							<div className="w-[180px] h-[180px] rounded-full overflow-hidden shrink-0">
 								{/* // Todo: Add testimonial image */}
 								<img

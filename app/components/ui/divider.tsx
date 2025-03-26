@@ -14,13 +14,16 @@ export default function Divider({
 	return (
 		<div
 			className={cn(
-				"flex flex-col w-full",
+				"flex flex-col w-full divider-background",
 				className,
 				bgColor
 			)}
 		>
 			<div
-				className={cn(color, "h-[3px] w-full")}
+				className={cn(
+					color,
+					"h-[3px] w-full divider-line"
+				)}
 			></div>
 		</div>
 	);
