@@ -14,15 +14,15 @@ export default function LandingPage() {
 				<div
 					className="landing-section-container"
 				>
-					<div className="mx-auto lg:mx-0 my-auto w-full lg:w-1/2 flex flex-col gap-y-26">
-						<div className="flex flex-col text-center">
-							<h1 className="text-[74px] text-cream text-shadow leading-20">
+					<div className="mx-auto lg:mx-0 my-auto w-full lg:w-1/2 flex flex-col gap-y-10 md:gap-y-26">
+						<div className="flex flex-col justify-center text-center">
+							<h1 className="text-[74px] font-bold text-cream text-shadow leading-20 title-text-shadow">
 								Harvest
 							</h1>
-							<h1 className="text-[53px] md:text-[74px] text-logoOrange md:text-cream text-shadow">
+							<h1 className="text-[53px] md:text-[74px] text-logoOrange md:text-cream title-text-shadow font-bold">
 								Opportunity
 							</h1>
-							<h1 className="text-[74px] text-cream text-shadow leading-20">
+							<h1 className="text-[74px] text-cream text-shadow leading-20 title-text-shadow font-bold">
 								Today
 							</h1>
 						</div>

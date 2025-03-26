@@ -14,6 +14,11 @@ text-shadow {
 	height: calc(auto + 190px);
 }
 
+.title-text-shadow {
+  -webkit-text-stroke: 0.5px black;
+}
+
+
 .stroke::before,
 .stroke::after {
   content: "";

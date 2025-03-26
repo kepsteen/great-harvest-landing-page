@@ -25,7 +25,7 @@ export default function Navbar() {
 
 	return (
 		<nav
-			className={`fixed lg:sticky top-0 left-0 w-full px-5 py-5 z-50 transition-all duration-300 ${
+			className={`fixed lg:sticky top-0 left-0 w-full px-1 py-5 z-50 transition-all duration-300 ${
 				isScrolled
 					? "bg-cream  py-4"
 					: "bg-transparent lg:bg-cream  py-5"

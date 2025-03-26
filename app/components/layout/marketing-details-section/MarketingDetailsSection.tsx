@@ -28,12 +28,12 @@ export default function MarketingDetailsSection() {
           <div className="pb-10">
             <ul className="md:flex lg:mx-auto lg:max-w-[1024px]">
             {MarketingCardData.map((marketingCard, index) => (
-              <li key={index} className='pt-12 lg:pt-17.5 md:w-1/3'>
+              <li key={index} className='pt-12 px-5 lg:pt-17.5 md:w-1/3'>
                 <div className="flex justify-center">
                   <Image src={marketingCard.icon} alt={marketingCard.alt} width={61} height={61} />
                 </div>
                 <h1 className="text-[20px] px-10 md:px-5 lg:px-10 py-4 text-center">{marketingCard.title}</h1>
-                <div className="px-5">
+                <div className="pl-2.5">
                   <p className="text-[18px]">{marketingCard.passage}</p>
                 </div>
               </li>
