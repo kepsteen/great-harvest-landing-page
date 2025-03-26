@@ -22,11 +22,11 @@ export default function MarketingDetailsSection() {
           <div className="px-5">
             <h1 className="text-[48px] text-center">Let&apos;s Make BREAD together!</h1>
           </div>
-          <div className="px-6 pt-6.5 text-[28px] flex justify-center text-center">
+          <div className="px-5 pt-6.5 text-[28px] flex justify-center text-center">
             <p>Our team is dedicated to getting you open quickly and efficiently</p>
           </div>
           <div className="pb-10">
-            <ul className="grid md:grid-rows-1 md:grid-cols-3  lg:mx-auto lg:max-w-[1024px]">
+            <ul className="grid md:grid-rows-1 md:grid-cols-3  lg:mx-auto lg:max-w-[1040px] px-5 lg:px-0">
             {MarketingCardData.map((marketingCard, index) => (
               <li key={index} className='flex flex-col pt-12 px-2.5 lg:pt-17.5'>
                 <div className="flex justify-center">

@@ -19,7 +19,7 @@ export default function LandingPage() {
 							<h1 className="text-[74px] font-bold text-cream text-shadow leading-20 title-text-shadow">
 								Harvest
 							</h1>
-							<h1 className="text-[53px] md:text-[74px] text-logoOrange md:text-cream title-text-shadow font-bold">
+							<h1 className="text-[53px] sm:text-[74px] text-logoOrange sm:text-cream title-text-shadow font-bold">
 								Opportunity
 							</h1>
 							<h1 className="text-[74px] text-cream text-shadow leading-20 title-text-shadow font-bold">
@@ -27,7 +27,7 @@ export default function LandingPage() {
 							</h1>
 						</div>
 						<div className="w-full px-1 md:px-24">
-							<div className="px-3 md:px-5 py-1 md:py-5 rounded-xl bg-lightBeigeOp text-brandBlue font-bold text-xl md:mx-5">
+							<div className="px-5 px-5 py-1 md:py-5 rounded-xl bg-lightBeigeOp text-brandBlue font-bold text-xl md:mx-5">
 								<h1>Revolutionary Concept</h1>
 								<span>
 									Since 1976 Great Harvest has been

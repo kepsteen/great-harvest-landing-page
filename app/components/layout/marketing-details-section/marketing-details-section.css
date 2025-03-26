@@ -16,15 +16,15 @@
 @media screen and (min-width: 768px) {
 
   .marketing-section {
-      max-width: 550px;
+      /* max-width: 550px; */
     /* background-image: url('/images/tablet-bread-bg.png'); */
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .marketing-section {
+  /* .marketing-section {
     max-width: none;
     min-height:auto;
-    /* background-image: url('/images/desktop-bread-bg.png');; */
-  }
+    background-image: url('/images/desktop-bread-bg.png');;
+  } */
 }

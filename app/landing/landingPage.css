@@ -111,10 +111,10 @@ transform: translateY(58px);
 
 @media screen and (min-width: 1024px) {
 	.landing-section {
-	height: 100vh
+	height: 90vh
 }
 
 .landing-section-container {
-	height: 100vh;
+	height: 90vh;
 }
 }
