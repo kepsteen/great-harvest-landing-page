@@ -66,12 +66,12 @@ export default function FranchiseMetricsSection() {
 						bite!
 					</p>
 					<div>
-						<ul className="flex flex-col md:flex-row md:flex-wrap md:justify-center md:items-start items-center gap-[3.75rem]">
+						<ul className="flex flex-col md:flex-row md:flex-wrap lg:flex-nowrap md:justify-center md:items-start items-center gap-[3.75rem] lg:gap-8">
 							{metricCardData.map(
 								(metricCard) => (
 									<li
 										key={metricCard.title}
-										className="w-full md:w-[45%] lg:w-[30%] flex flex-col items-center"
+										className="w-full md:w-[calc(45%-1.875rem)] lg:w-[calc(33.333%-1rem)] flex flex-col items-center"
 									>
 										<div className="relative w-full flex flex-col items-center pb-4">
 											<div className="w-[216px] h-[216px] rounded-full relative">
