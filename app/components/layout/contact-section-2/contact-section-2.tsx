@@ -12,7 +12,7 @@ export default function ContactSection2() {
 			/>
 			<div className="w-full relative">
 				<div className="absolute bread-pattern-bg inset-0 -z-[1]"></div>
-				<section className="hpy-[30px] px-[40px] flex flex-col items-center gap-[40px] contact-section-2 w-full">
+				<section className="py-[30px] px-[40px] flex flex-col items-center gap-[40px] contact-section-2 w-full">
 					<div>
 						<Image
 							src="/wheat-mobile.svg"
