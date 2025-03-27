@@ -1,13 +1,10 @@
-.contact-section-2 {
-	background-image: url("/images/contact-mobile-bread-bg.png");
-	min-height: 100vh;
-	display: flex;
-	margin: 0 auto;
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
+.bread-pattern-bg {
+	background-image: url("/bread-bg-icon.svg");
+	background-color: var(--cream);
+	background-repeat: repeat;
+	background-size: 110px 140px;
 }
-
+/* 
 @media screen and (min-width: 768px) {
 	.contact-section-2 {
 		background-image: url("/images/contact-tablet-bread-bg.png");
@@ -19,4 +16,4 @@
 		min-height: auto;
 		background-image: url("/images/desktop-bread-bg.png");
 	}
-}
+} */

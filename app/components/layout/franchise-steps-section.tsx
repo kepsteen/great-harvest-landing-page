@@ -51,9 +51,9 @@ export default function FranchiseStepsSection() {
 						alt="Great Harvest Anchorage"
 						width={1200}
 						height={800}
-						className="aspect-square lg:aspect-[3/2] mx-auto w-[250px] xs:w-[300px] sm:w-[400px] lg:w-[600px] xl:w-[800px] 2xl:w-[1000px] object-cover rounded-xl mb-[10px] border-6 border-cream object-[center_20%]"
+						className="aspect-square lg:aspect-[3/2] mx-auto w-[250px] xs:w-[350px] sm:w-[400px] lg:w-[600px] xl:w-[800px] 2xl:w-[1000px] object-cover rounded-xl mb-[10px] border-6 border-cream object-[center_20%]"
 					/>
-					<p className="text-primary text-center text-base lg:text-white">
+					<p className="text-primary text-center text-[20px] lg:text-white">
 						(Jarrett&apos;s - Anchorage, AK)
 					</p>
 				</div>

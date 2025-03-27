@@ -16,6 +16,13 @@ const metricCardData: MetricCard[] = [
 		imgUrl: "/images/catering-tray-1.jpg",
 	},
 	{
+		title: "Projected Growth",
+		description:
+			"Great Harvest is such a good company with delicious, fresh bread that satiates and satisfies customers. Join today to own your own bakery and bring fresh bread to locals around you.",
+		metric: "45%",
+		imgUrl: "/images/fresh-baked-20x30.jpg",
+	},
+	{
 		title: "Initial Investment",
 		description:
 			"Your investment will quickly multiply and pay dividends.",
@@ -23,21 +30,31 @@ const metricCardData: MetricCard[] = [
 		imgUrl:
 			"/images/honey-whole-wheat-5-simple.jpg",
 	},
-	{
-		title: "Projected Growth",
-		description:
-			"Great Harvest is such a good company with delicious, fresh bread that satiates and satisfies customers. Join today to own your own bakery and bring fresh bread to locals around you.",
-		metric: "45%",
-		imgUrl: "/images/fresh-baked-20x30.jpg",
-	},
 ];
 
 export default function FranchiseMetricsSection() {
 	return (
 		<>
+			{/* <Image
+				src={"/arrows-bottom.svg"}
+				alt="arrows-bottom"
+				width={1000}
+				height={100}
+				className="w-full h-[100px] object-cover"
+			/> */}
+			<div className="relative lg:hidden">
+				<Image
+					className="w-[calc(100%+20px)] h-[150px] transform rotate-180 -mt-[1px] -ml-[2px] -mr-[2px]"
+					src="/landing-chevron.svg"
+					width={1000}
+					height={1000}
+					alt="landing page divider"
+				/>
+				<div className="absolute inset-0 bg-cream -z-10"></div>
+			</div>
 			<div className="relative w-full">
 				<div className="absolute bread-pattern-bg inset-0 -z-10"></div>
-				<section className="px-[13px] pt-[20px] pb-[60px] max-w-[1040px] mx-auto">
+				<section className="px-[13px] py-[60px] max-w-[1040px] mx-auto">
 					<h2 className="text-center text-[3rem]">
 						Why Great Harvest?
 					</h2>
