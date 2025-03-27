@@ -14,55 +14,8 @@ text-shadow {
 	height: calc(auto + 190px);
 }
 
-.stroke::before,
-.stroke::after {
-	content: "";
-	position: absolute;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	clip-path: polygon(
-		0 0,
-		100% 0,
-		100% 85%,
-		50% 95%,
-		0 85%
-	);
-	z-index: -1;
-}
-
-.first-stroke::after {
-	background-color: var(--brandBlue);
-	transform: translateY(8px);
-}
-
-.first-stroke::before {
-	background-color: white;
-	transform: translateY(18px);
-}
-
-.second-stroke::before {
-	background-color: var(--accent);
-	transform: translateY(28px);
-	z-index: -2;
-}
-
-.second-stroke::after {
-	background-color: white;
-	transform: translateY(38px);
-	z-index: -3;
-}
-
-.third-stroke::before {
-	background-color: var(--logoOrange);
-	transform: translateY(48px);
-	z-index: -4;
-}
-
-.third-stroke::after {
-	background-color: white;
-	transform: translateY(58px);
-	z-index: -5;
+.title-text-shadow {
+	-webkit-text-stroke: 0.5px black;
 }
 
 .landing-section-container {
@@ -74,14 +27,6 @@ text-shadow {
 	background-size: 300% auto;
 	background-position-x: 49%;
 	background-position-y: 55%;
-
-	clip-path: polygon(
-		0 0,
-		100% 0,
-		100% 85%,
-		50% 95%,
-		0 85%
-	);
 }
 
 .bread-pattern-bg {
@@ -110,10 +55,10 @@ text-shadow {
 
 @media screen and (min-width: 1024px) {
 	.landing-section {
-		height: 100vh;
+		height: 90vh;
 	}
 
 	.landing-section-container {
-		height: 100vh;
+		height: 90vh;
 	}
 }

@@ -6,7 +6,7 @@ export default function DesktopNav() {
   return (
     <>
     <div className="hidden lg:flex">
-      <ul className="flex items-center gap-x-10">
+      <ul className="flex items-center gap-x-8">
         <li>
           <div>
             <a className="text-[20px] font-bold flex items-center gap-x-2" href="#" aria-label="Location dropdown" aria-haspopup="true" aria-expanded="false">
@@ -24,7 +24,7 @@ export default function DesktopNav() {
         <li>
           <div>
             <a className="text-[20px] font-bold flex items-center gap-x-2" href="#" aria-label="About Us dropdown"  aria-haspopup="true" aria-expanded="false">
-              <span>About Us</span>
+              <span className="text-center">About Us</span>
               <BsChevronDown size={15}/>
             </a>
           </div>
