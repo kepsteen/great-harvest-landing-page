@@ -34,7 +34,7 @@ export default function Navbar() {
 			aria-label="Main Navigation"
 		>
 			<div className="flex justify-between mx-auto">
-				<div className="w-1/3 min-w-[100px] max-w-[160px]">
+				<div className="min-w-[100px] max-w-[160px]">
 					<a
 						aria-label="Great Harvest Logo"
 						href="#"
