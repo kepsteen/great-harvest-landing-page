@@ -44,11 +44,11 @@ export default function FranchiseMetricsSection() {
 			/> */}
 			<div className="relative lg:hidden">
 				<Image
-					className="w-[calc(100%+20px)] h-[150px] transform rotate-180 -mt-[1px] -ml-[2px] -mr-[2px]"
+					className="w-full h-[150px] transform rotate-180 -mt-[1px] -mr-[200px]"
 					src="/landing-chevron.svg"
 					width={1000}
 					height={1000}
-					alt="landing page divider"
+					alt="franchise metrics section divider"
 				/>
 				<div className="absolute inset-0 bg-cream -z-10"></div>
 			</div>
