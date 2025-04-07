@@ -14,7 +14,7 @@ export default function MobileNav({isMenuOpen, setIsMenuOpen} : {isMenuOpen: boo
 					</button> */}
 				</div>
 				<div>
-					<button aria-label="Open mobile menu" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+					<button className="cursor-pointer" aria-label="Open mobile menu" onClick={() => setIsMenuOpen(!isMenuOpen)}>
 						<RxHamburgerMenu
 							size={27}
 							color="#0A2240"

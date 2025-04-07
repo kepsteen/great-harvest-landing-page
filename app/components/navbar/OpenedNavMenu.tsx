@@ -1,9 +1,9 @@
 export default function OpenedNavMenu({isMenuOpen, setIsMenuOpen} : {isMenuOpen: boolean, setIsMenuOpen: (arg: boolean) => void}) {
   return (
     <>
-    <div id="mobile-nav-menu" className="pt-5 bg-cream">
+    <div id="mobile-nav-menu" className="pt-5 bg-cream rounded-b-xl">
       <h1 className="text-center text-[20px]">Jump to:</h1>
-      <div>
+      <div className="px-5">
         <ul className="flex flex-col bg-tan text-center mt-5">
           <li className="py-4 border-b-[1px] text-[20px]">
             <a href="#readyToFranchise" className="cursor-pointer" onClick={() => setIsMenuOpen(!isMenuOpen)}>
@@ -38,7 +38,7 @@ export default function OpenedNavMenu({isMenuOpen, setIsMenuOpen} : {isMenuOpen:
         </ul>
       </div>
       <div className="py-5 text-center">
-        <button className="bg-[#534F49] py-4 px-5 rounded-full text-white text-[20px]" onClick={() => setIsMenuOpen(!isMenuOpen)}   aria-expanded={isMenuOpen}
+        <button className="bg-[#534F49] py-4 px-5 rounded-full text-white text-[20px] cursor-pointer" onClick={() => setIsMenuOpen(!isMenuOpen)}   aria-expanded={isMenuOpen}
   aria-controls="mobile-nav-menu"
   aria-label="Toggle menu">
           Close
