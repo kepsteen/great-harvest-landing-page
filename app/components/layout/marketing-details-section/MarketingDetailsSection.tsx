@@ -5,7 +5,7 @@ import { MarketingCardData } from "./data/marketingCardData";
 export default function MarketingDetailsSection() {
 	return (
 		<>
-			<section className="bg-brandBlue text-white">
+			<section id="corporateSupport" className="bg-brandBlue text-white">
 				<div className="flex flex-col bread-pattern-blue-bg marketing-section w-full">
 					<div className="flex justify-center w-full py-8">
 						<picture className="h-[149px]">

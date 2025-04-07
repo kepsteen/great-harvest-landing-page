@@ -8,7 +8,7 @@ export default function TestimonialsSection() {
 				bgColor="bg-cream"
 				className="py-[12px]"
 			/>
-			<section className="bg-cream">
+			<section id="testimonials" className="bg-cream">
 				<div className="px-[38px] pt-[38px] pb-[30px] md:px-[171px] lg:hidden">
 					<Image
 						src="/wheat.svg"

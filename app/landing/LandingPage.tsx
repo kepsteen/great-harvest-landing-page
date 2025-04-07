@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function LandingPage() {
 	return (
 		<>
-			<section className="landing-section">
+			<section id="home" className="landing-section">
 				<div className="landing-section-wrapper lg:bg-white">
 					<div className="relative landing-section-container">
 						<div className="absolute lg:hidden bottom-[-2px] w-full left-0">

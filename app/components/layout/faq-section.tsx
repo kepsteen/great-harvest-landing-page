@@ -35,7 +35,7 @@ const faqs = [
 
 export default function FAQSection() {
 	return (
-		<section className="px-[20px] py-[60px] sm:px-[80px] bg-brandBlue">
+		<section id="faq" className="px-[20px] py-[60px] sm:px-[80px] bg-brandBlue">
 			<div className="text-center flex items-center justify-center text-[3rem] mb-[55px] bg-cream rounded-full h-[250px] w-[250px] mx-auto">
 				<h2>FAQs</h2>
 			</div>

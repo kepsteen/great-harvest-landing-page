@@ -12,7 +12,7 @@ const steps = [
 export default function FranchiseStepsSection() {
 	return (
 		<>
-			<section className="lg:flex lg:flex-wrap lg:gap-4 bg-cream lg:bg-darkGreen px-[20px] sm:px-[30px] lg:px-[80px] lg:items-center py-[30px]">
+			<section id="theProcess" className="lg:flex lg:flex-wrap lg:gap-4 bg-cream lg:bg-darkGreen px-[20px] sm:px-[30px] lg:px-[80px] lg:items-center py-[30px]">
 				<div className="relative w-full h-[400px] max-w-[400px] mx-auto overflow-hidden py-8 lg:order-2 lg:basis-[calc(40%-80px)]">
 					<div className="absolute top-14 right-10 bottom-0 left-0 bg-darkGreen z-30 flex flex-col justify-center items-center lg:bg-cream p-3 sm:p-4">
 						<h2 className="text-[2rem] sm:text-[2.5rem] md:text-[3rem] text-white text-center lg:text-primary leading-snug mb-[10px]">
