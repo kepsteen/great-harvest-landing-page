@@ -13,6 +13,7 @@ export default function Home() {
 	return (
 		<div className="flex flex-col relative min-h-screen">
 			<Navbar />
+			{/* // Todo: Move Navbar to the root layout*/}
 			<LandingPage />
 			<ContactSection />
 			<FranchiseMetricsSection />

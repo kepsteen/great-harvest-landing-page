@@ -2,11 +2,12 @@ import type { Metadata } from "next";
 import { Albert_Sans } from "next/font/google";
 
 import "./globals.css";
+import Script from "next/script";
 
 const albertSans = Albert_Sans({
 	variable: "--font-albert-sans",
-	subsets: ["latin"]
-})
+	subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
 	title: "Create Next App",
@@ -24,6 +25,13 @@ export default function RootLayout({
 				className={`${albertSans.variable} antialiased`}
 			>
 				<main>{children}</main>
+				<Script
+					id="hs-script-loader"
+					src="//js.hs-scripts.com/53298.js"
+					strategy="lazyOnload"
+					async
+					defer
+				/>
 			</body>
 		</html>
 	);
