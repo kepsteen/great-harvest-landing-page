@@ -1,6 +1,6 @@
 export interface MarketingCard {
-  icon: string;
-  alt: string;
-  title: string;
-  passage: string;
+	icon: string;
+	alt: string;
+	title: string;
+	passage: string;
 }

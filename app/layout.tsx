@@ -5,8 +5,8 @@ import "./globals.css";
 
 const albertSans = Albert_Sans({
 	variable: "--font-albert-sans",
-	subsets: ["latin"]
-})
+	subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
 	title: "Create Next App",

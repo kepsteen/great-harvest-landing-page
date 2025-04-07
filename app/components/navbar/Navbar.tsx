@@ -2,11 +2,13 @@
 import { useState, useEffect } from "react";
 import DesktopNav from "./DesktopNav";
 import MobileNav from "./MobileNav";
+import OpenedNavMenu from "./OpenedNavMenu";
 
 export default function Navbar() {
 	const [isScrolled, setIsScrolled] =
 		useState(false);
-
+	const [isMenuOpened, setIsMenuOpen] = useState(false)
+	
 	useEffect(() => {
 		const handleScroll = () => {
 			setIsScrolled(window.scrollY > 25);
@@ -24,6 +26,7 @@ export default function Navbar() {
 	}, []);
 
 	return (
+		<>
 		<nav
 			className={`fixed lg:sticky top-0 left-0 w-full px-5 md:px-20 lg:px-17.5 py-5 z-50 transition-all duration-300 ${
 				isScrolled
@@ -46,9 +49,11 @@ export default function Navbar() {
 						/>
 					</a>
 				</div>
-				<MobileNav />
+				<MobileNav setIsMenuOpen={setIsMenuOpen} isMenuOpen={isMenuOpened} />
 				<DesktopNav />
 			</div>
+			{isMenuOpened ? <OpenedNavMenu /> : <></>}
 		</nav>
+</>
 	);
 }

@@ -1,12 +1,11 @@
 .marketing-section {
-  display: flex;
-  margin: 0 auto;
+	display: flex;
+	margin: 0 auto;
 }
 
 .bread-pattern-blue-bg {
-  background-image: url("/bread-bg-icon.svg");
-  background-color: var(--brandBlue);
-  background-repeat: repeat;
-  background-size: 110px 140px;
+	background-image: url("/bread-bg-icon.svg");
+	background-color: var(--brandBlue);
+	background-repeat: repeat;
+	background-size: 110px 140px;
 }
-

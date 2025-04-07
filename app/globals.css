@@ -10,6 +10,7 @@
 	--second-text: #302b24;
 	--darkGreen: rgb(108, 134, 61);
 	--lightBeigeOp: #f5f3f1b2;
+	--tan: #D7C1A03D;
 }
 
 @theme inline {
@@ -27,6 +28,7 @@
 	--color-cream: var(--cream);
 	--color-logoOrange: var(--logoOrange);
 	--color-lightBeigeOp: var(--lightBeigeOp);
+	--color-tan: var(--tan);
 	--color-second-text: var(--second-text);
 }
 
@@ -50,7 +52,8 @@ body {
 		right: 0;
 		bottom: 0;
 		border: 2px solid var(--color-accent);
-		background: radial-gradient(
+		background:
+			radial-gradient(
 					circle at 100% 100%,
 					transparent 0.5rem,
 					var(--color-accent) 0.5rem

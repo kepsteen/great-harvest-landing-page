@@ -22,7 +22,12 @@ text-shadow {
 	flex-direction: column;
 	min-height: 100vh;
 	width: 100%;
-	background: linear-gradient(rgba(245, 243, 241, .25), rgba(245, 243, 241, .25)), url("/images/landing-image.jpg");
+	background:
+		linear-gradient(
+			rgba(245, 243, 241, 0.25),
+			rgba(245, 243, 241, 0.25)
+		),
+		url("/images/landing-image.jpg");
 	background-size: 150% auto;
 	background-position-x: 49%;
 	background-position-y: 25%;
