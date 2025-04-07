@@ -42,7 +42,10 @@ export default function FranchiseMetricsSection() {
 				height={100}
 				className="w-full h-[100px] object-cover"
 			/> */}
-			<div id="whyGreatHarvest" className="relative lg:hidden">
+			<div
+				id="whyGreatHarvest"
+				className="relative lg:hidden"
+			>
 				<Image
 					className="w-full h-[150px] transform rotate-180 -mt-[1px] -mr-[200px]"
 					src="/landing-chevron.svg"

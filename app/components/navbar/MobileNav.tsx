@@ -3,8 +3,13 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import { useState } from "react";
 import OpenedNavMenu from "./OpenedNavMenu";
 
-export default function MobileNav({isMenuOpen, setIsMenuOpen} : {isMenuOpen: boolean, setIsMenuOpen: (arg: boolean) => void}) {
-
+export default function MobileNav({
+	isMenuOpen,
+	setIsMenuOpen,
+}: {
+	isMenuOpen: boolean;
+	setIsMenuOpen: (arg: boolean) => void;
+}) {
 	return (
 		<>
 			<div className="flex items-center gap-x-6 lg:hidden">
@@ -14,7 +19,13 @@ export default function MobileNav({isMenuOpen, setIsMenuOpen} : {isMenuOpen: boo
 					</button> */}
 				</div>
 				<div>
-					<button className="cursor-pointer" aria-label="Open mobile menu" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+					<button
+						className="cursor-pointer"
+						aria-label="Open mobile menu"
+						onClick={() =>
+							setIsMenuOpen(!isMenuOpen)
+						}
+					>
 						<RxHamburgerMenu
 							size={27}
 							color="#0A2240"
