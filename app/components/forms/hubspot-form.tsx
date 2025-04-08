@@ -103,6 +103,7 @@ const defaultStyles = `
 			display: grid;
 			grid-template-columns: repeat(2, 1fr);
 			gap: 1.5rem;
+			align-items: end;
 		}
 		.hs-submit, .hs-fieldtype-textarea, .hs-fieldtype-radio {
 			grid-column: span 2;

@@ -1,5 +1,6 @@
 import "./landingPage.css";
 import Image from "next/image";
+import HubspotContactForm from "../components/forms/hubspot-form";
 
 export default function LandingPage() {
 	return (
@@ -49,6 +50,14 @@ export default function LandingPage() {
 						<div></div>
 					</div>
 				</div>
+				{/* <div className="hidden lg:block">
+				<HubspotContactForm
+					region="na1"
+					portalId="53298"
+					formId="05728241-e3e2-45d6-83ac-b1e830b96e0d"
+					className="contact-us-form"
+				/>
+				</div> */}
 			</section>
 		</>
 	);

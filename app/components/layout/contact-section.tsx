@@ -146,6 +146,7 @@ const contactFormCss = `
 			grid-template-columns: repeat(2, 1fr);
 			column-gap: 2rem;
 			row-gap: 1.5rem;
+			align-items: end;
 		}
 		.required-text {
 			grid-column: span 2;

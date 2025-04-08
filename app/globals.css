@@ -33,6 +33,7 @@
 	--color-tan: var(--tan);
 	--color-second-text: var(--second-text);
 	--color-bgTan: var(--bgTan);
+	--color-textGray: var(--textGray);
 }
 
 html {

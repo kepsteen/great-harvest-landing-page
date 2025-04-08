@@ -4,8 +4,6 @@
 }
 
 .bread-pattern-blue-bg {
-	background-image: url("/bread-bg-icon.svg");
-	background-color: var(--brandBlue);
 	background-repeat: repeat;
 	background-size: 110px 140px;
 }
