@@ -1,6 +1,5 @@
 import "./landingPage.css";
 import Image from "next/image";
-import HubspotContactForm from "../components/forms/hubspot-form";
 
 export default function LandingPage() {
 	return (
