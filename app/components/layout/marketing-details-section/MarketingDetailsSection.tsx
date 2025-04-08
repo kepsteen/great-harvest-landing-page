@@ -11,8 +11,8 @@ export default function MarketingDetailsSection() {
 				<div className="flex flex-col bread-pattern-blue-bg marketing-section w-full bg-tan">
 					<div className="flex justify-center w-full py-8">
 						<div className="flex gap-x-15">
-							<img src="/trowlet.svg" />
-							<img src="/trowlet.svg" />
+							<img src="/trowlet.svg" alt="trowlet" />
+							<img src="/trowlet.svg" alt="trowlet" />
 						</div>
 
 

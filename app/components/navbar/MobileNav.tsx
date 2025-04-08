@@ -1,7 +1,5 @@
-import { IoSearch } from "react-icons/io5";
 import { RxHamburgerMenu } from "react-icons/rx";
-import { useState } from "react";
-import OpenedNavMenu from "./OpenedNavMenu";
+
 
 export default function MobileNav({
 	isMenuOpen,
