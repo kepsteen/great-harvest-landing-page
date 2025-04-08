@@ -2,7 +2,10 @@ import Image from "next/image";
 export default function TestimonialsSection() {
 	return (
 		<>
-			<section className="bg-cream py-[60px]">
+			<section
+				id="testimonials"
+				className="bg-cream py-[60px]"
+			>
 				<div className="px-[38px] md:px-[171px] lg:hidden">
 					<Image
 						src="/wheat-mobile.svg"

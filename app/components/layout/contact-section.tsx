@@ -146,6 +146,7 @@ const contactFormCss = `
 			grid-template-columns: repeat(2, 1fr);
 			column-gap: 2rem;
 			row-gap: 1.5rem;
+			align-items: end;
 		}
 		.required-text {
 			grid-column: span 2;
@@ -158,7 +159,10 @@ const contactFormCss = `
 
 export default function ContactSection() {
 	return (
-		<section className="mt-[-3px] bg-bgTan py-[30px] px-[20px] flex flex-col items-center gap-[40px] w-full lg:hidden max-w-[1040px]">
+		<section
+			id="readyToFranchise"
+			className="mt-[-3px] bg-bgTan py-[30px] px-[20px] flex flex-col items-center gap-[40px] w-full lg:hidden max-w-[1040px]"
+		>
 			<h2 className="text-center text-[3rem] w-full leading-snug">
 				Contact Us and Let&apos;s Make Some Bread
 				together!

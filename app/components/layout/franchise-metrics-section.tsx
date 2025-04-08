@@ -27,8 +27,10 @@ const metricCardData: MetricCard[] = [
 export default function FranchiseMetricsSection() {
 	return (
 		<>
-			<div className="relative lg:hidden overflow-hidden">
-				<div className="relative w-[120vw] left-1/2 -translate-x-1/2">
+			<div id="whyGreatHarvest" className="relative lg:hidden overflow-hidden">
+				<div
+				className="relative w-[120vw] left-1/2 -translate-x-1/2"
+			>
 					<Image
 						className="w-full transform"
 						src="/new-arrows.svg"
@@ -39,6 +41,7 @@ export default function FranchiseMetricsSection() {
 				</div>
 			</div>
 			<div className="relative w-full">
+				<div className="absolute inset-0 -z-10"></div>
 				<section className="px-[13px] py-[60px] max-w-[1040px] mx-auto">
 					<h2 className="text-center text-[3rem]">
 						Why Great Harvest?

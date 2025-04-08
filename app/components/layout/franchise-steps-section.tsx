@@ -11,7 +11,10 @@ const steps = [
 export default function FranchiseStepsSection() {
 	return (
 		<>
-			<div className="relative w-full bg-gradient-to-b from-bgTan from-0% via-bgTan via-10% to-cream to-20% border-t border-textGray">
+			<div
+				id="theProcess"
+				className="relative w-full bg-gradient-to-b from-bgTan from-0% via-bgTan via-10% to-cream to-20% border-t border-textGray"
+			>
 				<section className="py-16 w-full max-w-full mx-auto">
 					<div className="container mx-auto px-4 mb-12">
 						<div className="text-center mb-12">

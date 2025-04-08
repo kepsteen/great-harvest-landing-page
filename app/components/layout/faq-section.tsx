@@ -28,7 +28,10 @@ const faqs = [
 
 export default function FAQSection() {
 	return (
-		<section className="px-[20px] py-[60px] sm:px-[80px] bg-bgTan border-t border-textGray">
+		<section
+			id="faq"
+			className="px-[20px] py-[60px] sm:px-[80px] bg-bgTan border-t border-textGray"
+		>
 			<div className="text-center flex items-center justify-center text-[3rem] mb-[55px] bg-darkGreen rounded-full h-[250px] w-[250px] mx-auto text-white">
 				<h2>FAQs</h2>
 			</div>
