@@ -6,7 +6,7 @@ const contactFormCss = `
 		display: flex;
 		flex-direction: column;
 		gap: 1.5rem;
-		background-color: #eee7de;
+		background-color: #F6F0E8;
 		padding: 2rem;
 		border-radius: 0.5rem;
 	}
