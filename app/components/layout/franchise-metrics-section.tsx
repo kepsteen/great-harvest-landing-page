@@ -27,7 +27,7 @@ const metricCardData: MetricCard[] = [
 export default function FranchiseMetricsSection() {
 	return (
 		<>
-			<div className="relative lg:hidden overflow-visible">
+			<div className="relative lg:hidden overflow-hidden">
 				<div className="relative w-[120vw] left-1/2 -translate-x-1/2">
 					<Image
 						className="w-full transform"
