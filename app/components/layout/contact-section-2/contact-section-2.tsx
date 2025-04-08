@@ -1,21 +1,14 @@
-import Divider from "../../ui/divider";
 import Image from "next/image";
 import "./contact-section-2.css";
 
 export default function ContactSection2() {
 	return (
 		<>
-			<Divider
-				color="bg-brandBlue"
-				bgColor="bg-cream"
-				className="py-[12px] findmepls"
-			/>
-			<div className="w-full relative">
-				<div className="absolute bread-pattern-bg inset-0 -z-[1]"></div>
+			<div className="w-full border-t border-textGray">
 				<section className="py-[30px] px-[40px] flex flex-col items-center gap-[40px] contact-section-2 w-full">
 					<div>
 						<Image
-							src="/wheat-mobile.svg"
+							src="/tan-wheat-mobile.svg"
 							alt="Contact Us"
 							width={400}
 							height={200}
