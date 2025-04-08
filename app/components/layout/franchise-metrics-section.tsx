@@ -41,7 +41,7 @@ export default function FranchiseMetricsSection() {
 				</div>
 			</div>
 			<div className="relative w-full">
-				<div className="absolute bread-pattern-bg inset-0 -z-10"></div>
+				<div className="absolute inset-0 -z-10"></div>
 				<section className="px-[13px] py-[60px] max-w-[1040px] mx-auto">
 					<h2 className="text-center text-[3rem]">
 						Why Great Harvest?

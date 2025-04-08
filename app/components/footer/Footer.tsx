@@ -27,7 +27,7 @@ export default function Footer() {
 						<div className="flex">
 							<a
 								className="font-bold text-[20px]"
-								href="#"
+								href="#home"
 							>
 								Great Harvest
 							</a>
