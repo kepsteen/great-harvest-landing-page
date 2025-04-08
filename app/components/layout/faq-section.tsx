@@ -5,31 +5,24 @@ const faqs = [
 		question:
 			"Am I required to work in the business?",
 		answer:
-			"No, you are not required to work in the business. You can hire employees to work in the business.",
+			"At first, yes. But once you've assembled a well-trained and competent team, you can focus on things like additional units, increasing catering, wholesale accounts, farmer's markets, etc.",
+	},
+	{
+		question: "What are typical store hours?",
+		answer:
+			"Great Harvest Bakery Cafes are open on-average seven days a week anytime from 7:00 AM to 6:00 PM.",
 	},
 	{
 		question:
-			"Am I required to work in the business?",
+			"Do I need to own my real estate, and do you assist with build out, design, etc.?",
 		answer:
-			"No, you are not required to work in the business. You can hire employees to work in the business.",
+			"You do not need to own your building; however, some franchisees do. We assist in the real estate hunt, lease negotiation, design and build out of your Great Harvest.",
 	},
 	{
 		question:
-			"Am I required to work in the business?",
+			"Does Great Harvest provide training?",
 		answer:
-			"No, you are not required to work in the business. You can hire employees to work in the business.",
-	},
-	{
-		question:
-			"Am I required to work in the business?",
-		answer:
-			"No, you are not required to work in the business. You can hire employees to work in the business.",
-	},
-	{
-		question:
-			"Am I required to work in the business?",
-		answer:
-			"No, you are not required to work in the business. You can hire employees to work in the business.",
+			"Yes! You will attend a comprehensive training that will cover everything from business ownership to baking and everything in between.",
 	},
 ];
 
@@ -37,16 +30,16 @@ export default function FAQSection() {
 	return (
 		<section
 			id="faq"
-			className="px-[20px] py-[60px] sm:px-[80px] bg-brandBlue"
+			className="px-[20px] py-[60px] sm:px-[80px] bg-bgTan border-t border-textGray"
 		>
-			<div className="text-center flex items-center justify-center text-[3rem] mb-[55px] bg-cream rounded-full h-[250px] w-[250px] mx-auto">
+			<div className="text-center flex items-center justify-center text-[3rem] mb-[55px] bg-darkGreen rounded-full h-[250px] w-[250px] mx-auto text-white">
 				<h2>FAQs</h2>
 			</div>
-			<ul className="flex flex-col w-full bg-cream overflow-hidden">
+			<div className="flex flex-col w-full max-w-[700px] lg:max-w-[1000px] mx-auto gap-4">
 				{faqs.map((faq, index) => (
-					<li
+					<div
 						key={faq.question + index}
-						className="border-b last:border-b-0 border-primary text-md"
+						className="rounded-lg overflow-hidden bg-white w-full"
 					>
 						<div className="relative">
 							<input
@@ -56,22 +49,22 @@ export default function FAQSection() {
 							/>
 							<label
 								htmlFor={`accordion-${index + 1}`}
-								className="flex items-center justify-between w-full p-4 cursor-pointer transition-colors duration-150 hover:bg-cream/80"
+								className="flex items-center justify-between w-full p-6 cursor-pointer"
 							>
-								<span className="font-medium text-black">
+								<span className="font-medium text-[#555] text-xl">
 									{faq.question}
 								</span>
-								<FiChevronDown className="transition-transform duration-200 peer-checked:rotate-180" />
+								<FiChevronDown className="text-2xl transition-transform duration-200 peer-checked:rotate-180" />
 							</label>
-							<div className="max-h-0 overflow-hidden transition-all duration-300 peer-checked:max-h-[200px] peer-checked:border-t border-primary">
-								<div className="p-6 text-black/80 leading-relaxed bg-cream/50">
+							<div className="max-h-0 overflow-hidden transition-all duration-300 peer-checked:max-h-[200px]">
+								<div className="p-6 pt-0 text-[#555] leading-relaxed">
 									{faq.answer}
 								</div>
 							</div>
 						</div>
-					</li>
+					</div>
 				))}
-			</ul>
+			</div>
 		</section>
 	);
 }

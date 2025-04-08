@@ -6,7 +6,7 @@ const contactFormCss = `
 		display: flex;
 		flex-direction: column;
 		gap: 1.5rem;
-		background-color: #eee7de;
+		background-color: #F6F0E8;
 		padding: 2rem;
 		border-radius: 0.5rem;
 	}
@@ -24,6 +24,71 @@ const contactFormCss = `
 		padding: 0.75rem;
 		background-color: white;
 		font-size: 1rem;
+	}
+	.hs-input:not([type="checkbox"]):focus {
+		border-color: rgb(108, 134, 61);
+		outline: rgb(108, 134, 61) solid 1px;
+	}
+	.hs-input[type="radio"] {
+		appearance: none;
+		-webkit-appearance: none;
+		width: 20px;
+		height: 20px;
+		border: 1px solid #D1D1D1;
+		border-radius: 50%;
+		outline: none;
+		margin-right: 8px;
+		vertical-align: middle;
+		position: relative;
+		cursor: pointer;
+		background-color: white;
+	}
+	.hs-input[type="radio"]:checked {
+		border: 2px solid #6C9F58;
+	}
+	.hs-input[type="radio"]:checked::after {
+		content: "";
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 12px;
+		height: 12px;
+		border-radius: 50%;
+		background-color: #6C9F58;
+	}
+	.hs-input[type="radio"]:focus {
+		outline: none;
+	}
+	.hs-fieldtype-radio {
+		padding: 0;
+		background-color: transparent;
+	}
+	.hs-fieldtype-radio .inputs-list {
+		list-style: none;
+		padding: 0;
+		margin: 10px 0 0;
+	}
+	.hs-fieldtype-radio .inputs-list li {
+		margin-bottom: 14px;
+	}
+	.hs-fieldtype-radio label {
+		display: flex;
+		align-items: center;
+		font-weight: normal;
+		color: #333;
+		font-size: 0.95rem;
+	}
+	.hs-fieldtype-radio .hs-form-field > label {
+		font-weight: 600;
+		margin-bottom: 2px;
+	}
+	.hs-fieldtype-radio .hs-form-field p {
+		margin-top: 0;
+		margin-bottom: 10px;
+		color: #555;
+		font-size: 0.9rem;
+		line-height: 1.4;
 	}
 	.hs-form-field {
 		margin-bottom: 1rem;
