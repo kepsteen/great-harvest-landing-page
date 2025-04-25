@@ -31,12 +31,12 @@ export default function Footer() {
 		<>
 			<footer className="bg-brandBlue text-white">
 				<div className="flex flex-col md:flex-row md:justify-between md:w-2/3 md:mx-auto py-10">
-					<div className="flex flex-col md:order-2 gap-y-5 items-center">
+					<div className="flex flex-col gap-y-5 items-center">
 						<ul className="flex flex-col gap-y-5">
 							{footerNavMap}
 						</ul>
 					</div>
-					<div className="flex flex-col md:order-1 items-center lg:items-start">
+					<div className="flex flex-col items-center lg:items-start">
 						<div className="pt-10 md:pt-0 gap-y-5 lg:gap-x-2 grid grid-rows-2 lg:grid-rows-1 grid-cols-[50px_auto] lg:grid-cols-[50px_auto_50px_auto] items-center">
 							<div className="pr-2">
 								<Image
