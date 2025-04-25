@@ -41,7 +41,7 @@ export default function Footer() {
 							<div className="pr-2">
 								<Image
 									src="./location-pointer.svg"
-									alt="location pointer icon"
+									alt=""
 									width={46}
 									height={46}
 								/>
@@ -55,7 +55,7 @@ export default function Footer() {
 							<div className="pr-2">
 								<Image
 									src="./android-phone.svg"
-									alt="android phone icon"
+									alt=""
 									width={46}
 									height={46}
 								/>
