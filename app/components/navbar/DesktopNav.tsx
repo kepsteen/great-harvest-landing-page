@@ -1,6 +1,3 @@
-import { IoSearch } from "react-icons/io5";
-import { BsChevronDown } from "react-icons/bs";
-
 export default function DesktopNav() {
 	return (
 		<>
