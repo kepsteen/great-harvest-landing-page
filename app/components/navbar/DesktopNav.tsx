@@ -9,65 +9,34 @@ export default function DesktopNav() {
 					<li>
 						<div>
 							<a
-								className="text-[20px] font-bold flex items-center gap-x-2"
+								className="text-[20px] font-normal"
 								href="#"
-								aria-label="Location dropdown"
-								aria-haspopup="true"
-								aria-expanded="false"
 							>
-								<span>Locations</span>
-								<BsChevronDown size={15} />
-								{/* once dropdown functionality is included need to update expanded */}
+								FAQs
 							</a>
 						</div>
 					</li>
 					<li>
 						<div>
 							<a
-								className="text-[20px] font-bold"
+								className="text-[20px] font-normal"
 								href="#"
-								aria-label="Research"
 							>
-								Research
+								Testimonials
 							</a>
 						</div>
 					</li>
 					<li>
 						<div>
 							<a
-								className="text-[20px] font-bold flex items-center gap-x-2"
+								className="text-[20px] font-normal p-4 bg-white border"
 								href="#"
-								aria-label="About Us dropdown"
-								aria-haspopup="true"
-								aria-expanded="false"
-							>
-								<span className="text-center">
-									About Us
-								</span>
-								<BsChevronDown size={15} />
-							</a>
-						</div>
-					</li>
-					<li>
-						<div>
-							<a
-								className="text-[20px] font-bold p-5 bg-darkGreen text-white"
-								href="#"
-								aria-label="Ready to Franchise"
 							>
 								Ready to Franchise
 							</a>
 						</div>
 					</li>
 				</ul>
-				<div className="flex items-center pl-10">
-					<button
-						className="cursor-pointer"
-						aria-label="Search"
-					>
-						<IoSearch size={30} />
-					</button>
-				</div>
 			</div>
 		</>
 	);

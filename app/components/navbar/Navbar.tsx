@@ -29,7 +29,7 @@ export default function Navbar() {
 	return (
 		<>
 			<nav
-				className={`fixed lg:sticky top-0 left-0 w-full px-5 md:px-20 lg:px-17.5 py-5 z-50 transition-all duration-300 ease-in-out ${isMenuOpened || isScrolled ? "bg-cream py-4" : "bg-transparent lg:bg-cream  py-5"}
+				className={`fixed top-0 left-0 w-full px-5 md:px-20 lg:px-17.5 py-5 z-50 transition-all duration-300 ease-in-out ${isMenuOpened || isScrolled ? " py-4 bg-cream" : "bg-transparent py-5"}
 			`}
 				role="navigation"
 				aria-label="Main Navigation"
@@ -37,7 +37,6 @@ export default function Navbar() {
 				<div className="flex justify-between mx-auto">
 					<div className="min-w-[100px] max-w-[160px]">
 						<a
-							aria-label="Great Harvest Logo"
 							href="#home"
 							onClick={() => setIsMenuOpen(false)}
 						>
@@ -56,8 +55,9 @@ export default function Navbar() {
 				</div>
 				{isMenuOpened && (
 					<div
-						className="absolute top-[106px] left-0 w-full transition-all duration-300 ease-in-out transform"
-						aria-hidden={!isMenuOpened}
+					id="mobile-menu"
+					className="absolute top-[106px] left-0 w-full transition-all duration-300 ease-in-out transform"
+					aria-hidden={!isMenuOpened}
 					>
 						<OpenedNavMenu
 							setIsMenuOpen={setIsMenuOpen}
