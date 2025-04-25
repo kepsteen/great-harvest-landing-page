@@ -36,8 +36,8 @@ export default function Footer() {
 							{footerNavMap}
 						</ul>
 					</div>
-					<div className="flex flex-col items-center lg:items-start">
-						<div className="pt-10 md:pt-0 gap-y-5 lg:gap-x-2 grid grid-rows-2 lg:grid-rows-1 grid-cols-[50px_auto] lg:grid-cols-[50px_auto_50px_auto] items-center">
+					<div className="flex flex-col items-center">
+						<div className="pt-10 md:pt-0 gap-y-5 grid grid-rows-2  grid-cols-[50px_auto]  items-center">
 							<div className="pr-2">
 								<Image
 									src="./location-pointer.svg"
@@ -61,16 +61,10 @@ export default function Footer() {
 								/>
 							</div>
 							<div className="flex flex-col">
-								<a
-									className="lg:text-end"
-									href="tel:800-442-0424"
-								>
+								<a href="tel:800-442-0424">
 									1.800.442.0424
 								</a>
-								<a
-									className="lg:text-end"
-									href="tel:406-683-6842"
-								>
+								<a href="tel:406-683-6842">
 									406.683.6842
 								</a>
 							</div>
