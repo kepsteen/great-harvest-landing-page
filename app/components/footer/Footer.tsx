@@ -1,19 +1,27 @@
 import Image from "next/image";
 
-const footerNavOptions: string[] = [
-	"Locations",
-	"Order Catering",
-	"Franchise",
-	"About Us",
-	"Contact Us",
+type Link = {
+	title: string;
+	link: string;
+};
+
+const footerNavLinks: Link[] = [
+	{ title: "Locations", link: "" },
+	{ title: "Order Catering", link: "" },
+	{ title: "Franchise", link: "" },
+	{ title: "About Us", link: "" },
+	{ title: "Contact Us", link: "" },
 ];
 
 export default function Footer() {
-	const footerNavMap = footerNavOptions.map(
-		(footerNavOption, index) => (
+	const footerNavMap = footerNavLinks.map(
+		(footerLink, index) => (
 			<li key={index}>
-				<a href="#" className="text-[15px]">
-					{footerNavOption}
+				<a
+					href={footerLink.link}
+					className="text-[15px]"
+				>
+					{footerLink.title}
 				</a>
 			</li>
 		)
