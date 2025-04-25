@@ -79,7 +79,7 @@ export default function Footer() {
 							<a href="#">
 								<Image
 									src={"./twitter-bird.svg"}
-									alt="twitter bird"
+									alt="twitter"
 									width={41}
 									height={41}
 									aria-label="Visit Twitter"
@@ -88,7 +88,7 @@ export default function Footer() {
 							<a href="#">
 								<Image
 									src={"./facebook-logo.svg"}
-									alt="facebook logo"
+									alt="facebook"
 									width={41}
 									height={41}
 									aria-label="Visit Facebook"
@@ -97,10 +97,10 @@ export default function Footer() {
 							<a href="#">
 								<Image
 									src={"./linkedin-logo.svg"}
-									alt="linkedin logo"
+									alt="linkedin"
 									width={41}
 									height={41}
-									aria-label="Visit Linkedin"
+									aria-label="Visit LinkedIn"
 								/>
 							</a>
 						</div>
