@@ -1,19 +1,27 @@
 import Image from "next/image";
 
-const footerNavOptions: string[] = [
-	"Locations",
-	"Order Catering",
-	"Franchise",
-	"About Us",
-	"Contact Us",
+type Link = {
+	title: string;
+	link: string;
+};
+
+const footerNavLinks: Link[] = [
+	{ title: "Locations", link: "" },
+	{ title: "Order Catering", link: "" },
+	{ title: "Franchise", link: "" },
+	{ title: "About Us", link: "" },
+	{ title: "Contact Us", link: "" },
 ];
 
 export default function Footer() {
-	const footerNavMap = footerNavOptions.map(
-		(footerNavOption, index) => (
+	const footerNavMap = footerNavLinks.map(
+		(footerLink, index) => (
 			<li key={index}>
-				<a href="#" className="text-[15px]">
-					{footerNavOption}
+				<a
+					href={footerLink.link}
+					className="text-[15px]"
+				>
+					{footerLink.title}
 				</a>
 			</li>
 		)
@@ -23,25 +31,17 @@ export default function Footer() {
 		<>
 			<footer className="bg-brandBlue text-white">
 				<div className="flex flex-col md:flex-row md:justify-between md:w-2/3 md:mx-auto py-10">
-					<div className="flex flex-col md:order-2 gap-y-5 items-center">
-						<div className="flex">
-							<a
-								className="font-bold text-[20px]"
-								href="#home"
-							>
-								Great Harvest
-							</a>
-						</div>
+					<div className="flex flex-col gap-y-5 items-center">
 						<ul className="flex flex-col gap-y-5">
 							{footerNavMap}
 						</ul>
 					</div>
-					<div className="flex flex-col md:order-1 items-center lg:items-start">
-						<div className="pt-10 md:pt-0 gap-y-5 lg:gap-x-2 grid grid-rows-2 lg:grid-rows-1 grid-cols-[50px_auto] lg:grid-cols-[50px_auto_50px_auto] items-center">
+					<div className="flex flex-col items-center">
+						<div className="pt-10 md:pt-0 gap-y-5 grid grid-rows-2  grid-cols-[50px_auto]  items-center">
 							<div className="pr-2">
 								<Image
 									src="./location-pointer.svg"
-									alt="location pointer icon"
+									alt=""
 									width={46}
 									height={46}
 								/>
@@ -55,23 +55,25 @@ export default function Footer() {
 							<div className="pr-2">
 								<Image
 									src="./android-phone.svg"
-									alt="android phone icon"
+									alt=""
 									width={46}
 									height={46}
 								/>
 							</div>
-							<div>
-								<p className="lg:text-end">
-									1.800.442.0424 <br />{" "}
-									406.683.6842{" "}
-								</p>
+							<div className="flex flex-col">
+								<a href="tel:800-442-0424">
+									1.800.442.0424
+								</a>
+								<a href="tel:406-683-6842">
+									406.683.6842
+								</a>
 							</div>
 						</div>
 						<div className="flex justify-center gap-x-5 pt-5">
 							<a href="#">
 								<Image
 									src={"./twitter-bird.svg"}
-									alt="twitter bird"
+									alt="twitter"
 									width={41}
 									height={41}
 									aria-label="Visit Twitter"
@@ -80,7 +82,7 @@ export default function Footer() {
 							<a href="#">
 								<Image
 									src={"./facebook-logo.svg"}
-									alt="facebook logo"
+									alt="facebook"
 									width={41}
 									height={41}
 									aria-label="Visit Facebook"
@@ -89,10 +91,10 @@ export default function Footer() {
 							<a href="#">
 								<Image
 									src={"./linkedin-logo.svg"}
-									alt="linkedin logo"
+									alt="linkedin"
 									width={41}
 									height={41}
-									aria-label="Visit Linkedin"
+									aria-label="Visit LinkedIn"
 								/>
 							</a>
 						</div>
