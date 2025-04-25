@@ -60,11 +60,19 @@ export default function Footer() {
 									height={46}
 								/>
 							</div>
-							<div>
-								<p className="lg:text-end">
-									1.800.442.0424 <br />{" "}
-									406.683.6842{" "}
-								</p>
+							<div className="flex flex-col">
+								<a
+									className="lg:text-end"
+									href="tel:800-442-0424"
+								>
+									1.800.442.0424
+								</a>
+								<a
+									className="lg:text-end"
+									href="tel:406-683-6842"
+								>
+									406.683.6842
+								</a>
 							</div>
 						</div>
 						<div className="flex justify-center gap-x-5 pt-5">
