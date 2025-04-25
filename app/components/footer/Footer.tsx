@@ -32,14 +32,6 @@ export default function Footer() {
 			<footer className="bg-brandBlue text-white">
 				<div className="flex flex-col md:flex-row md:justify-between md:w-2/3 md:mx-auto py-10">
 					<div className="flex flex-col md:order-2 gap-y-5 items-center">
-						<div className="flex">
-							<a
-								className="font-bold text-[20px]"
-								href="#home"
-							>
-								Great Harvest
-							</a>
-						</div>
 						<ul className="flex flex-col gap-y-5">
 							{footerNavMap}
 						</ul>
