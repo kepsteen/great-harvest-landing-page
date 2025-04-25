@@ -30,16 +30,16 @@ export default function FAQSection() {
 	return (
 		<section
 			id="faq"
-			className="px-[20px] py-[60px] sm:px-[80px] bg-bgTan border-t border-textGray"
+			className="px-[24px] py-[50px] sm:px-[80px] border-t border-textGray flex flex-col gap-[10px]"
 		>
-			<div className="text-center flex items-center justify-center text-[3rem] mb-[55px] bg-darkGreen rounded-full h-[250px] w-[250px] mx-auto text-white">
+			<div className="text-center flex items-center justify-center text-[3rem] mb-[10px] bg-[#c7a983] h-[85px] w-[255px] mx-auto text-white shadow-[0px_4px_4px_0px_#00000040]">
 				<h2>FAQs</h2>
 			</div>
-			<div className="flex flex-col w-full max-w-[700px] lg:max-w-[1000px] mx-auto gap-4">
+			<div className="flex flex-col w-full max-w-[700px] lg:max-w-[1000px] mx-auto gap-[20px]">
 				{faqs.map((faq, index) => (
 					<div
 						key={faq.question + index}
-						className="rounded-lg overflow-hidden bg-white w-full"
+						className="rounded-lg overflow-hidden bg-white w-full border-[0.5px] border-[#534f49]"
 					>
 						<div className="relative">
 							<input
@@ -49,15 +49,15 @@ export default function FAQSection() {
 							/>
 							<label
 								htmlFor={`accordion-${index + 1}`}
-								className="flex items-center justify-between w-full p-6 cursor-pointer"
+								className="flex items-center justify-between w-full p-[10px] cursor-pointer"
 							>
-								<span className="font-medium text-[#555] text-xl">
+								<span className="font-medium text-[#534f49] text-[1rem]">
 									{faq.question}
 								</span>
 								<FiChevronDown className="text-2xl transition-transform duration-200 peer-checked:rotate-180" />
 							</label>
 							<div className="max-h-0 overflow-hidden transition-all duration-300 peer-checked:max-h-[200px]">
-								<div className="p-6 pt-0 text-[#555] leading-relaxed">
+								<div className="text-[1rem] text-black px-[10px] pb-[15px]">
 									{faq.answer}
 								</div>
 							</div>
