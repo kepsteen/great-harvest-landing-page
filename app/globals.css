@@ -4,15 +4,19 @@
 	--cream: #f5f3f1;
 	--foreground: #302b24;
 	--secondary-content: #ffffff;
-	--logoOrange: #de6048;
-	--brandBlue: #0a2240;
-	--accent: #b13c26;
 	--second-text: #302b24;
-	--darkGreen: rgb(108, 134, 61);
 	--lightBeigeOp: #f5f3f1b2;
 	--bgTan: #F2EBE1;
-	--textGray: #534f49;
 	--tan: #d7c1a03d;
+
+	/* new colors for v4 */
+	--brand-blue: #0a2240;
+	--wheat-light: #E9D4B0;
+  --wheat-medium: #DEBE91;
+  --wheat-dark: #C7A983;
+	--logo-orange: #DD4A2F;
+	--dark-wood: #5E3D1D;
+	--charcoal-gray: #534f49;
 }
 
 @theme inline {
@@ -25,15 +29,20 @@
 	--color-accent: var(--accent);
 	--font-sans: var(--font-geist-sans);
 	--font-mono: var(--font-geist-mono);
-	--color-brandBlue: var(--brandBlue);
 	--color-darkGreen: var(--darkGreen);
 	--color-cream: var(--cream);
-	--color-logoOrange: var(--logoOrange);
 	--color-lightBeigeOp: var(--lightBeigeOp);
 	--color-tan: var(--tan);
 	--color-second-text: var(--second-text);
 	--color-bgTan: var(--bgTan);
-	--color-textGray: var(--textGray);
+
+	/* new colors for v4 */
+	--color-brand-blue: var(--brand-blue);
+	--color-logo-orange: var(--logo-orange);
+	--color-wheat-light: var(--wheat-light);
+  --color-wheat-medium: var(--wheat-medium);
+  --color-wheat-dark: var(--wheat-dark);
+	--color-charcoal-gray: var(--charcoal-gray);
 }
 
 html {
