@@ -29,7 +29,7 @@ export default function Footer() {
 
 	return (
 		<>
-			<footer className="bg-brandBlue text-white">
+			<footer className="bg-charcoal-gray text-white">
 				<div className="flex flex-col md:flex-row md:justify-between md:w-2/3 md:mx-auto py-10">
 					<div className="flex flex-col gap-y-5 items-center">
 						<ul className="flex flex-col gap-y-5">
