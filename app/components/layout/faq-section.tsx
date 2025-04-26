@@ -36,33 +36,21 @@ export default function FAQSection() {
 				<h2>FAQs</h2>
 			</div>
 			<div className="flex flex-col w-full max-w-[700px] lg:max-w-[1000px] mx-auto gap-[20px]">
-				{faqs.map((faq, index) => (
-					<div
-						key={faq.question + index}
-						className="rounded-lg overflow-hidden bg-white w-full border-[0.5px] border-[#534f49]"
+				{faqs.map((faq) => (
+					<details
+						key={faq.question}
+						className="bg-white rounded-lg border-[0.5px] border-charcoal-gray p-[10px]"
 					>
-						<div className="relative">
-							<input
-								type="checkbox"
-								id={`accordion-${index + 1}`}
-								className="absolute opacity-0 peer"
-							/>
-							<label
-								htmlFor={`accordion-${index + 1}`}
-								className="flex items-center justify-between w-full p-[10px] cursor-pointer"
-							>
-								<span className="font-medium text-[#534f49] text-[1rem]">
-									{faq.question}
-								</span>
-								<FiChevronDown className="text-2xl transition-transform duration-200 peer-checked:rotate-180" />
-							</label>
-							<div className="max-h-0 overflow-hidden transition-all duration-300 peer-checked:max-h-[200px]">
-								<div className="text-[1rem] text-black px-[10px] pb-[15px]">
-									{faq.answer}
-								</div>
-							</div>
-						</div>
-					</div>
+						<summary className="font-medium text-charcoal-gray text-[1rem] pb-[10px] cursor-pointer focus:outline-offset-2 list-none flex justify-between items-center">
+							{faq.question}
+							<span>
+								<FiChevronDown className="transition-transform duration-200 peer-open:rotate-180 text-2xl" />
+							</span>
+						</summary>
+						<p className="text-[1rem] text-black pb-[15px] transition-all duration-300">
+							{faq.answer}
+						</p>
+					</details>
 				))}
 			</div>
 		</section>
