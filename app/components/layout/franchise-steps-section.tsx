@@ -27,6 +27,7 @@ export default function FranchiseStepsSection() {
 									alt=""
 									height={40}
 									width={40}
+									className="mt-2"
 								/>
 								<div>
 									<h3 className="text-[28px] mb-[10px]">
@@ -43,6 +44,7 @@ export default function FranchiseStepsSection() {
 									alt=""
 									height={40}
 									width={40}
+									className="mt-2"
 								/>
 								<div className="p-0">
 									<h3 className="text-[28px] p-0">
@@ -59,6 +61,7 @@ export default function FranchiseStepsSection() {
 									alt=""
 									height={40}
 									width={40}
+									className="mt-2"
 								/>
 								<div>
 									<h3 className="text-[28px]">
