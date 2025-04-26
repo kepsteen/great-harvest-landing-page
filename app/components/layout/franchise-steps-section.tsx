@@ -7,7 +7,7 @@ export default function FranchiseStepsSection() {
 			className="relative w-full bg-brand-blue"
 		>
 			<div className="py-16 w-full max-w-full mx-auto">
-				<div className="container mx-auto px-4 max-w-[342px] text-brand-blue">
+				<div className="container mx-auto px-4 max-w-[342px] md:max-w-[632px] text-brand-blue">
 					<div className="text-center bg-white shadow-[0px_4px_4px_0px_#00000040] p-[10px]">
 						<h2 className="text-[48px] mb-[20px]">
 							Our Revolutionary Process
@@ -19,7 +19,7 @@ export default function FranchiseStepsSection() {
 							using only Montana-grown wheat.
 						</p>
 					</div>
-					<div className="flex flex-col bg-white shadow-[4px_4px_4px_0px_#00000040] rounded-[20px] p-[20px] mt-[20px]">
+					<div className="flex flex-col md:flex-row md:gap-[30px] bg-white shadow-[4px_4px_4px_0px_#00000040] rounded-[20px] p-[20px] mt-[20px] ">
 						<ul className="flex flex-col gap-[15px]">
 							<li className="flex flex-row items-start gap-[15px]">
 								<Image
@@ -71,6 +71,15 @@ export default function FranchiseStepsSection() {
 								</div>
 							</li>
 						</ul>
+						<div className="relative mt-[30px] hidden md:block w-full h-auto md:max-w-[281px]">
+							<Image
+								src="/images/southlake-interior.png"
+								alt="Great Harvest worker wearing a dark t-shirt prepares an item"
+								fill
+								objectFit="cover"
+								className="shadow-[4px_4px_4px_0px_#00000040]"
+							/>
+						</div>
 					</div>
 					<Image
 						src="/images/southlake-interior.png"
@@ -81,7 +90,7 @@ export default function FranchiseStepsSection() {
 							width: "100%",
 							height: "auto",
 						}}
-						className="shadow-[4px_4px_4px_0px_#00000040] mt-[30px]"
+						className="shadow-[4px_4px_4px_0px_#00000040] mt-[30px] md:hidden"
 					/>
 				</div>
 			</div>
