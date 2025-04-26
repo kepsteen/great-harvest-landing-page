@@ -1,4 +1,4 @@
-import { FiChevronDown } from "react-icons/fi";
+import "./faq.css";
 
 const faqs = [
 	{
@@ -41,11 +41,8 @@ export default function FAQSection() {
 						key={faq.question}
 						className="bg-white rounded-lg border-[0.5px] border-charcoal-gray p-[10px]"
 					>
-						<summary className="font-medium text-charcoal-gray text-[1rem] pb-[10px] cursor-pointer focus:outline-offset-2 list-none flex justify-between items-center">
+						<summary className="font-medium text-charcoal-gray text-[1rem] pb-[10px] cursor-pointer focus:outline-offset-2 flex justify-between items-start">
 							{faq.question}
-							<span>
-								<FiChevronDown className="text-2xl" />
-							</span>
 						</summary>
 						<p className="text-[1rem] text-black pb-[15px]">
 							{faq.answer}
