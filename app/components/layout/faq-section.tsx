@@ -35,7 +35,7 @@ export default function FAQSection() {
 			<div className="text-center flex items-center justify-center text-[3rem] mb-[10px] bg-[#c7a983] h-[85px] w-[255px] mx-auto text-white shadow-[0px_4px_4px_0px_#00000040]">
 				<h2>FAQs</h2>
 			</div>
-			<div className="flex flex-col w-full max-w-[700px] lg:max-w-[1000px] mx-auto gap-[20px]">
+			<div className="flex flex-col w-full max-w-[632px] mx-auto gap-[20px]">
 				{faqs.map((faq) => (
 					<details
 						key={faq.question}
