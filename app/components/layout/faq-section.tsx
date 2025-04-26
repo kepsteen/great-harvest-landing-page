@@ -44,10 +44,10 @@ export default function FAQSection() {
 						<summary className="font-medium text-charcoal-gray text-[1rem] pb-[10px] cursor-pointer focus:outline-offset-2 list-none flex justify-between items-center">
 							{faq.question}
 							<span>
-								<FiChevronDown className="transition-transform duration-200 peer-open:rotate-180 text-2xl" />
+								<FiChevronDown className="text-2xl" />
 							</span>
 						</summary>
-						<p className="text-[1rem] text-black pb-[15px] transition-all duration-300">
+						<p className="text-[1rem] text-black pb-[15px]">
 							{faq.answer}
 						</p>
 					</details>
