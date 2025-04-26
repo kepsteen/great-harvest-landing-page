@@ -11,6 +11,7 @@
 
 	/* new colors for v4 */
 	--brand-blue: #0a2240;
+	--wheat-extra-light: #EDD5AC4D;
 	--wheat-light: #E9D4B0;
   --wheat-medium: #DEBE91;
   --wheat-dark: #C7A983;
@@ -39,6 +40,7 @@
 	/* new colors for v4 */
 	--color-brand-blue: var(--brand-blue);
 	--color-logo-orange: var(--logo-orange);
+	--color-wheat-extra-light: var(--wheat-extra-light);
 	--color-wheat-light: var(--wheat-light);
   --color-wheat-medium: var(--wheat-medium);
   --color-wheat-dark: var(--wheat-dark);
