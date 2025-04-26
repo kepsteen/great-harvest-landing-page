@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Albert_Sans } from "next/font/google";
+import Navbar from "./components/navbar/Navbar";
+import Footer from "./components/footer/Footer";
 
 import "./globals.css";
 import Script from "next/script";
@@ -24,6 +26,7 @@ export default function RootLayout({
 			<body
 				className={`${albertSans.variable} antialiased`}
 			>
+				<Navbar />
 				<main>{children}</main>
 				<Script
 					id="hs-script-loader"
@@ -32,6 +35,7 @@ export default function RootLayout({
 					async
 					defer
 				/>
+				<Footer />
 			</body>
 		</html>
 	);
