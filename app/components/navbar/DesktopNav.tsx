@@ -7,7 +7,7 @@ export default function DesktopNav() {
 						<div>
 							<a
 								className="text-[20px] font-normal"
-								href="#"
+								href="#faq"
 							>
 								FAQs
 							</a>
@@ -17,7 +17,7 @@ export default function DesktopNav() {
 						<div>
 							<a
 								className="text-[20px] font-normal"
-								href="#"
+								href="#testimonial"
 							>
 								Testimonials
 							</a>
@@ -27,7 +27,7 @@ export default function DesktopNav() {
 						<div>
 							<a
 								className="text-[20px] font-normal p-4 bg-white border"
-								href="#"
+								href="#readytofranchise"
 							>
 								Ready to Franchise
 							</a>

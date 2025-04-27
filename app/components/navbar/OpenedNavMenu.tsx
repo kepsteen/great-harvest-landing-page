@@ -39,22 +39,12 @@ export default function OpenedNavMenu({
 						</li>
 						<li className="py-4 border-b-[1px] text-[20px]">
 							<a
-								href="#corporateSupport"
+								href="#testimonial"
 								onClick={() =>
 									setIsMenuOpen(!isMenuOpen)
 								}
 							>
-								Corporate Support
-							</a>
-						</li>
-						<li className="py-4 border-b-[1px] text-[20px]">
-							<a
-								href="#testimonials"
-								onClick={() =>
-									setIsMenuOpen(!isMenuOpen)
-								}
-							>
-								Franchise Testimonials
+								Franchise Testimonial
 							</a>
 						</li>
 						<li className="py-4 border-b-[1px] text-[20px]">

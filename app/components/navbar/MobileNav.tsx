@@ -1,6 +1,5 @@
 import { RxHamburgerMenu } from "react-icons/rx";
 
-
 export default function MobileNav({
 	isMenuOpen,
 	setIsMenuOpen,
@@ -15,7 +14,9 @@ export default function MobileNav({
 					<button
 						className="cursor-pointer"
 						aria-label="Open mobile menu"
-  					aria-expanded={isMenuOpen ? "true" : "false"}
+						aria-expanded={
+							isMenuOpen ? "true" : "false"
+						}
 						aria-controls="mobile-menu"
 						onClick={() =>
 							setIsMenuOpen(!isMenuOpen)
