@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "./fonts.css";
 
 :root {
 	--cream: #f5f3f1;
@@ -49,7 +50,21 @@
 	--color-wheat-medium: var(--wheat-medium);
 	--color-wheat-dark: var(--wheat-dark);
 	--color-charcoal-gray: var(--charcoal-gray);
+
+
+	--font-ghPlain: 'ghPlain',  "sans-serif";
+	--font-ghSimple: 'ghSimple', "sans-serif";
+	--font-ghSimpleItalic: 'ghSimpleItalic', "san-serif";
+	--font-ghSimpleBold: 'ghSimpleBold', "san-serif";
+	--font-ghSimpleBoldItalic: 'ghSimpleBoldItalic', "san-serif";
+	--font-ghSimpleDemiBold: 'ghSimpleDemiBold', "san-serif";
+	--font-ghSimpleDemiBoldItalic: 'ghSimpleDemiBoldItalic', "san-serif";
+	--font-ghSimpleRustic: 'ghSimpleRustic', "san-serif";
+	--font-ghDisplay: 'ghDisplay', "san-serif";
+	--font-ghModDisplay: 'ghModDisplay', "san-serif";
+	--font-ghModDisplayLight: 'ghModDisplayLight', "san-serif";
 }
+
 
 html {
 	scroll-behavior: smooth;
@@ -58,7 +73,7 @@ html {
 body {
 	background: var(--background);
 	color: var(--foreground);
-	font-family: var(--font-albert-sans);
+	font-family: 'ghSimple';
 }
 
 @utility scalloped-border {
