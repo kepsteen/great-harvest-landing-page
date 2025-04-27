@@ -7,18 +7,18 @@
 	--secondary-content: #ffffff;
 	--second-text: #302b24;
 	--lightBeigeOp: #f5f3f1b2;
-	--bgTan: #F2EBE1;
+	--bgTan: #f2ebe1;
 	--tan: #d7c1a03d;
 
 	/* new colors for v4 */
 	--brand-blue: #0a2240;
-	--light-tan: #D0C6B7;
-	--wheat-extra-light: #EDD5AC4D;
-	--wheat-light: #E9D4B0;
-  --wheat-medium: #DEBE91;
-  --wheat-dark: #C7A983;
-	--logo-orange: #DD4A2F;
-	--dark-wood: #5E3D1D;
+	--light-tan: #d0c6b7;
+	--wheat-extra-light: #edd5ac4d;
+	--wheat-light: #e9d4b0;
+	--wheat-medium: #debe91;
+	--wheat-dark: #c7a983;
+	--logo-orange: #dd4a2f;
+	--dark-wood: #5e3d1d;
 	--charcoal-gray: #534f49;
 }
 
@@ -43,26 +43,34 @@
 	--color-brand-blue: var(--brand-blue);
 	--color-light-tan: var(--light-tan);
 	--color-logo-orange: var(--logo-orange);
-	--color-wheat-extra-light: var(--wheat-extra-light);
+	--color-wheat-extra-light: var(
+		--wheat-extra-light
+	);
 	--color-wheat-light: var(--wheat-light);
-  --color-wheat-medium: var(--wheat-medium);
-  --color-wheat-dark: var(--wheat-dark);
+	--color-wheat-medium: var(--wheat-medium);
+	--color-wheat-dark: var(--wheat-dark);
 	--color-charcoal-gray: var(--charcoal-gray);
 
-
-	--font-ghPlain: 'ghPlain',  "sans-serif";
-	--font-ghSimple: 'ghSimple', "sans-serif";
-	--font-ghSimpleItalic: 'ghSimpleItalic', "san-serif";
-	--font-ghSimpleBold: 'ghSimpleBold', "san-serif";
-	--font-ghSimpleBoldItalic: 'ghSimpleBoldItalic', "san-serif";
-	--font-ghSimpleDemiBold: 'ghSimpleDemiBold', "san-serif";
-	--font-ghSimpleDemiBoldItalic: 'ghSimpleDemiBoldItalic', "san-serif";
-	--font-ghSimpleRustic: 'ghSimpleRustic', "san-serif";
-	--font-ghDisplay: 'ghDisplay', "san-serif";
-	--font-ghModDisplay: 'ghModDisplay', "san-serif";
-	--font-ghModDisplayLight: 'ghModDisplayLight', "san-serif";
+	--font-ghPlain: "ghPlain", "sans-serif";
+	--font-ghSimple: "ghSimple", "sans-serif";
+	--font-ghSimpleItalic:
+		"ghSimpleItalic", "san-serif";
+	--font-ghSimpleBold:
+		"ghSimpleBold", "san-serif";
+	--font-ghSimpleBoldItalic:
+		"ghSimpleBoldItalic", "san-serif";
+	--font-ghSimpleDemiBold:
+		"ghSimpleDemiBold", "san-serif";
+	--font-ghSimpleDemiBoldItalic:
+		"ghSimpleDemiBoldItalic", "san-serif";
+	--font-ghSimpleRustic:
+		"ghSimpleRustic", "san-serif";
+	--font-ghDisplay: "ghDisplay", "san-serif";
+	--font-ghModDisplay:
+		"ghModDisplay", "san-serif";
+	--font-ghModDisplayLight:
+		"ghModDisplayLight", "san-serif";
 }
-
 
 html {
 	scroll-behavior: smooth;
@@ -71,7 +79,7 @@ html {
 body {
 	background: var(--background);
 	color: var(--foreground);
-	font-family: 'ghSimple';
+	font-family: "ghSimple";
 }
 
 @utility scalloped-border {
@@ -117,4 +125,8 @@ body {
 		background-repeat: no-repeat;
 		border-radius: 1rem;
 	}
+}
+
+.debug {
+	@apply outline-2 outline-red-500;
 }

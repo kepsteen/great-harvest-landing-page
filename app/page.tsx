@@ -1,5 +1,5 @@
 import LandingPage from "./landing/LandingPage";
-import FranchiseMetricsSection from "@/app/components/layout/franchise-metrics-section";
+import FranchiseMetricsSection from "@/app/components/layout/franchise-metrics-section/franchise-metrics-section";
 import TestimonialsSection from "@/app/components/layout/testimonials-section";
 import MarketingDetailsSection from "./components/layout/marketing-details-section/MarketingDetailsSection";
 import FranchiseStepsSection from "./components/layout/franchise-steps-section";
