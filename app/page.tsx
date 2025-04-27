@@ -7,6 +7,7 @@ import FAQSection from "./components/layout/faq-section";
 import ContactSection2 from "./components/layout/contact-section-2/contact-section-2";
 import ContactSection from "./components/layout/contact-section";
 import AvailabilityMapSection from "./components/layout/great-harvest-map-section/AvailabilityMapSection";
+import TestimonialSection from "./components/layout/testimonial-section/TestimonialSection";
 
 export default function Home() {
 	return (
@@ -14,6 +15,7 @@ export default function Home() {
 			<LandingPage />
 			<ContactSection />
 			<FranchiseMetricsSection />
+			<TestimonialSection />
 			<MarketingDetailsSection />
 			<TestimonialsSection />
 			<FranchiseStepsSection />
