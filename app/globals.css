@@ -49,6 +49,14 @@
 	--color-charcoal-gray: var(--charcoal-gray);
 }
 
+/* 
+@font-face {
+  font-family: 'YourCustomFont';
+  src: url('/fonts/ghplain.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+} */
+
 html {
 	scroll-behavior: smooth;
 }
