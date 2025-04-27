@@ -8,7 +8,7 @@ export default function TestimonialSection() {
 				id="testimonial"
 			>
 				<div>
-					<h2 className="font-bold text-[48px] text-center py-4 md:pt-0">
+					<h2 className="text-[48px] text-center py-4 md:pt-0">
 						Backed by our Franchisees
 					</h2>
 					<div className="bg-white rounded-xl mx-5 px-6 pt-6 md:pb-6 md:grid md:grid-cols-2 md:w-[80%] md:mx-auto">
