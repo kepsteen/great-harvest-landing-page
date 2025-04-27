@@ -13,7 +13,7 @@ export default function TestimonialSection() {
               </p>
               <div className="py-2.5 md:pb-0">
                 <h2 className="text-end md:text-start md:pl-5 font-ghPlain">Elise, Katie, & Kodiak Smith</h2>
-                <p className="text-end md:text-start md:pl-5 pt-2 leading-5 font-ghSimpleRustic">Harvesting in<br className="my-[2px]" />Northwest, Indiana</p>
+                <p className="text-end md:text-start md:pl-5 pt-2 leading-5 font-ghSimpleRustic">Harvesting in<br />Northwest, Indiana</p>
               </div>
             </div>
             <div className="pb-4 md:pb-0 md:h-full md:order-1 md:flex md:items-center">
