@@ -8,9 +8,9 @@ export default function TestimonialSection() {
 				id="testimonial"
 			>
 				<div>
-					<h1 className="font-bold text-[48px] text-center py-4 md:pt-0">
+					<h2 className="font-bold text-[48px] text-center py-4 md:pt-0">
 						Backed by our Franchisees
-					</h1>
+					</h2>
 					<div className="bg-white rounded-xl mx-5 px-6 pt-6 md:pb-6 md:grid md:grid-cols-2 md:w-[80%] md:mx-auto">
 						<div className="mb-2.5 md:order-2 lg:my-auto">
 							<p className="text-[13.5px] leading-[17px] md:pr-6 md:pl-5">
@@ -40,9 +40,9 @@ export default function TestimonialSection() {
 								personally.”
 							</p>
 							<div className="py-2.5 md:pb-0">
-								<h2 className="text-end md:text-start md:pl-5 font-ghPlain">
+								<p className="text-end md:text-start md:pl-5 font-ghPlain">
 									Elise, Katie, & Kodiak Smith
-								</h2>
+								</p>
 								<p className="text-end md:text-start md:pl-5 pt-2 leading-5 font-ghSimpleRustic">
 									Harvesting in
 									<br />
@@ -56,7 +56,7 @@ export default function TestimonialSection() {
 								src="/images/franchisees-owner.png"
 								width={290}
 								height={298}
-								alt="Three of Great Harvest franchise owner in Great Harvest apparel"
+								alt="Three Great Harvest franchise owners in Great Harvest apparel"
 							/>
 						</div>
 					</div>
