@@ -12,7 +12,7 @@ export default function TheProcessSection() {
 						<h2 className="text-[48px] mb-[20px]">
 							Our Revolutionary Process
 						</h2>
-						<p className="text-[20px]">
+						<p className="text-[20px] font-ghPlain">
 							Since 1976, Great Harvest has set
 							the industry standard by providing
 							fresh-baked breads, goodies and more
