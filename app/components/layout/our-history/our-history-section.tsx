@@ -7,13 +7,13 @@ export default function OurHistory() {
 			id="ourHistory"
 			className="bg-wheat-light flex flex-col items-center py-[25px]"
 		>
-			<div className=" w-[383px] h-[640px]  relative">
+			<div className="w-[383px] h-[640px] relative md:w-[702px] md:h-[526px]">
 				<img
 					src="/decorative/torn-paper-background.png"
 					alt=""
-					className="pt-[10px] mx-auto pointer-events-none object-fill w-full h-full"
+					className="pt-[10px] pointer-events-none object-fill w-full h-full  mx-auto"
 				/>
-				<div className="h-[600px] md:h-[574px] absolute top-[40px] px-[10px] flex flex-col items-center text-brand-blue ">
+				<div className="h-[600px] md:h-[574px] absolute top-[40px] left-[50%] ml-[-191.5px] md:ml-[-320px] px-[10px] flex flex-col items-center text-brand-blue">
 					<img
 						src="/decorative/wheat-mobile.png"
 						alt=""
