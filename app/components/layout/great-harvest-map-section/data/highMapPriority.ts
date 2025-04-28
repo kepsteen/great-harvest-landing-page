@@ -28,5 +28,7 @@ export const highMapPriority = [
   "Arkansas",
   "Oklahoma",
   "New Mexico",
-  "Missouri"
+  "Missouri",
+  "Texas",
+  "Alaska"
 ]
