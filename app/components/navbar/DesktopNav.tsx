@@ -2,7 +2,7 @@ export default function DesktopNav() {
 	return (
 		<>
 			<div className="hidden lg:flex">
-				<ul className="flex items-center gap-x-8">
+				<ul className="flex items-center gap-x-15">
 					<li>
 						<div>
 							<a
