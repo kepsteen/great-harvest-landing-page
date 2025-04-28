@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function FranchiseStepsSection() {
+export default function TheProcessSection() {
 	return (
 		<section
 			id="theProcess"
@@ -12,7 +12,7 @@ export default function FranchiseStepsSection() {
 						<h2 className="text-[48px] mb-[20px]">
 							Our Revolutionary Process
 						</h2>
-						<p className="text-[20px]">
+						<p className="text-[20px] font-ghPlain">
 							Since 1976, Great Harvest has set
 							the industry standard by providing
 							fresh-baked breads, goodies and more

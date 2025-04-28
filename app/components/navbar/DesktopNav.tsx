@@ -2,12 +2,12 @@ export default function DesktopNav() {
 	return (
 		<>
 			<div className="hidden lg:flex">
-				<ul className="flex items-center gap-x-8">
+				<ul className="flex items-center gap-x-15">
 					<li>
 						<div>
 							<a
 								className="text-[20px] font-normal"
-								href="#"
+								href="#faq"
 							>
 								FAQs
 							</a>
@@ -17,7 +17,7 @@ export default function DesktopNav() {
 						<div>
 							<a
 								className="text-[20px] font-normal"
-								href="#"
+								href="#testimonial"
 							>
 								Testimonials
 							</a>
@@ -27,7 +27,7 @@ export default function DesktopNav() {
 						<div>
 							<a
 								className="text-[20px] font-normal p-4 bg-white border"
-								href="#"
+								href="#readytofranchise"
 							>
 								Ready to Franchise
 							</a>
