@@ -6,7 +6,7 @@ details {
 	overflow: hidden;
 }
 
-/* details::details-content {
+details::details-content {
 	block-size: 0;
 	transition:
 		block-size 0.2s,
@@ -16,7 +16,7 @@ details {
 
 details[open]::details-content {
 	block-size: auto;
-} */
+}
 
 summary::after {
 	content: "";
