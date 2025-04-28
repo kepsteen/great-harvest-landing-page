@@ -3,8 +3,9 @@ import { MetricCardData } from "./metric.interface";
 export const metricCardData: MetricCardData[] = [
 	{
 		id: 1,
-		imageSrc: "/images/cookies-stacked.png",
-		imageAlt: "Stack of frosted cookies",
+		imageSrc: "/images/vermont-exterior.png",
+		imageAlt:
+			"The exterior of a Great Harvest Bread Company in Vermont",
 		badgeText: "Average Unit Volume",
 		title: "$948,105",
 		bullets: [
@@ -18,8 +19,9 @@ export const metricCardData: MetricCardData[] = [
 	},
 	{
 		id: 2,
-		imageSrc: "/images/cookies-stacked.png",
-		imageAlt: "Stack of frosted cookies",
+		imageSrc: "/images/buchanan-exterior.png",
+		imageAlt:
+			"The exterior of a Great Harvest Bread Company in Buchanan, Michigan",
 		badgeText: "Create It",
 		title: "Build Options",
 		bullets: [
@@ -34,8 +36,10 @@ export const metricCardData: MetricCardData[] = [
 	},
 	{
 		id: 3,
-		imageSrc: "/images/cookies-stacked.png",
-		imageAlt: "Stack of frosted cookies",
+		imageSrc:
+			"/images/ongoing-support-franchisee.png",
+		imageAlt:
+			"Image of a franchisee cheerfully buttering a loaf of bread",
 		badgeText: "Streams of Income",
 		title: "Playbook for Success",
 		bullets: [

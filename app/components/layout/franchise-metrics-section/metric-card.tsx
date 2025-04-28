@@ -16,13 +16,15 @@ export default function MetricCard({
 			{/* Container for Image and Badge */}
 			<div className="relative inline-block">
 				{/* Profile Image */}
-				<Image
-					src={card.imageSrc}
-					alt={card.imageAlt}
-					width={216} // Assuming image is square based on width/height
-					height={216}
-					className="mx-auto rounded-full shadow-lg image-dropshadow"
-				/>
+				<div className="w-[216px] h-[216px] rounded-full overflow-hidden mx-auto image-dropshadow">
+					<Image
+						src={card.imageSrc}
+						alt={card.imageAlt}
+						width={216}
+						height={216}
+						className="object-cover w-full h-full"
+					/>
+				</div>
 
 				{/* --- SVG Badge with Text Overlay --- */}
 				<div
