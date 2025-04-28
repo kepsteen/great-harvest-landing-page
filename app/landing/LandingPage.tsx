@@ -1,12 +1,12 @@
 import "./landingPage.css";
-import Image from "next/image";
+import LandingHubspotContactForm from "../components/forms/landing-hubspot-form";
 
 export default function LandingPage() {
 	return (
 		<>
 			<section
 				id="home"
-				className="landing-section pt-50 relative"
+				className="landing-section pt-35 pb-[230px] relative"
 			>
 				<div className="landing-section-wrapper">
 					<div className="">
@@ -30,59 +30,12 @@ export default function LandingPage() {
 									</div>
 								</div>
 							</div>
-							{/* TEMP SECTION ONLY  */}
-							<section className="px-[80px] flex flex-col items-center gap-[20px] w-full hidden lg:flex text-[#0A2240]">
-								<h2 className="text-center text-[3rem] w-full leading-snug">
-									Contact Us and Let&apos;s Make
-									Some Bread together!
-								</h2>
-								<div className="w-full flex flex-col gap-8">
-									<section className="w-full">
-										<h3 className="py-[10px] text-[28px] text-[#534F49]">
-											Personal Information
-										</h3>
-										<div className="flex flex-col gap-[20px]">
-											<div className="w-full h-[36px] border bg-cream pl-2 flex items-center">
-												*First Name
-											</div>
-											<div className="w-full h-[36px] border bg-cream pl-2 flex items-center">
-												*Last Name
-											</div>
-											<div className="w-full h-[36px] border bg-cream pl-2 flex items-center">
-												*Mobile Number
-											</div>
-											<div className="w-full h-[36px] border bg-cream pl-2 flex items-center">
-												*Email
-											</div>
-											<div className="w-full h-[36px] border bg-cream pl-2 flex items-center">
-												*Zipcode
-											</div>
-										</div>
-									</section>
-									<section className="w-full">
-										<h3 className="py-[10px] text-[28px] text-[#534F49]">
-											Additional Information
-										</h3>
-										<div className="flex flex-col gap-[20px]">
-											<div className="w-full h-[36px] border bg-cream pl-2 flex items-center">
-												*Liquid Assets
-											</div>
-											<div className="w-full h-[36px] border bg-cream pl-2 flex items-center">
-												*Net Worth
-											</div>
-											<div className="w-full h-[36px] border bg-cream pl-2 flex items-center">
-												*Type of Ownership
-											</div>
-											<div className="w-full h-[36px] border bg-cream pl-2 flex items-center">
-												*Message
-											</div>
-										</div>
-									</section>
-								</div>
-								<button className="cursor-pointer rounded-full w-[236px] bg-darkGreen text-[20px] text-cream py-4 px-[84px] font-bold">
-									Submit
-								</button>
-							</section>
+							<div className="bg-translucent-blue mt-7.5 mx-5 rounded-xl">
+							<h2 className="text-[48px] text-white text-center pt-6">Ready to Franchise</h2>
+							<h3 className="text-[20px] px-6 text-center text-white font-ghPlain">Bring Great Harvest to Your Town by Completing the Form Below</h3>
+							<p className="text-center text-white pt-2.5">*Required Information</p>
+							<LandingHubspotContactForm region="na1" formId="3d7b7292-e1bb-4778-b4b8-1ccbc20dbc81" portalId="53298" />
+							</div>
 						</div>
 					</div>
 				</div>

@@ -23,6 +23,8 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
+	<link rel="preload" href="https://js.hsforms.net/forms/shell.js" as="script" />
+
 			<body
 				className={`${albertSans.variable} antialiased`}
 			>
