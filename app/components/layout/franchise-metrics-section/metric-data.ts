@@ -14,6 +14,7 @@ export const metricCardData: MetricCardData[] = [
 			"Super-Loyal Customer Base",
 		],
 		footerText: "We Train You to Win",
+		badgeSvgPath: "/icons/metric-badge1.svg",
 	},
 	{
 		id: 2,
@@ -29,6 +30,7 @@ export const metricCardData: MetricCardData[] = [
 		],
 		footerText:
 			"Leverage Our 50 years of Franchising",
+		badgeSvgPath: "/icons/metric-badge2.svg",
 	},
 	{
 		id: 3,
@@ -37,11 +39,11 @@ export const metricCardData: MetricCardData[] = [
 		badgeText: "Streams of Income",
 		title: "Playbook for Success",
 		bullets: [
-			"Offsite Opportunities: Catering, Wholesale, Farmer's Markets, and more",
 			"Flexible Income Streams",
 			"Community Partnerships",
 			"Local and National Marketing Support",
 		],
 		footerText: "Let's Make Bread Together",
+		badgeSvgPath: "/icons/metric-badge3.svg",
 	},
 ];

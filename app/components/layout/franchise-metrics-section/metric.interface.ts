@@ -6,4 +6,5 @@ export interface MetricCardData {
 	title: string | number;
 	bullets: string[];
 	footerText: string;
+	badgeSvgPath: string;
 }
