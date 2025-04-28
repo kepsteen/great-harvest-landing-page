@@ -76,7 +76,7 @@ export default function TheProcessSection() {
 						</ul>
 						<div className="relative mt-[30px] hidden md:block w-full h-auto md:max-w-[281px]">
 							<Image
-								src="/images/southlake-interior.png"
+								src="/images/southlake-interior.jpg"
 								alt="Great Harvest worker wearing a dark t-shirt prepares an item"
 								fill
 								objectFit="cover"
@@ -85,7 +85,7 @@ export default function TheProcessSection() {
 						</div>
 					</div>
 					<Image
-						src="/images/southlake-interior.png"
+						src="/images/southlake-interior.jpg"
 						alt="Great Harvest worker wearing a dark t-shirt prepares an item"
 						width={0}
 						height={0}
