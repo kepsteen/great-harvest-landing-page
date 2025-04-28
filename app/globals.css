@@ -12,6 +12,7 @@
 
 	/* new colors for v4 */
 	--brand-blue: #0a2240;
+	--translucent-blue: #0A22408C;
 	--light-tan: #d0c6b7;
 	--wheat-extra-light: #edd5ac4d;
 	--wheat-light: #e9d4b0;
@@ -41,6 +42,7 @@
 
 	/* new colors for v4 */
 	--color-brand-blue: var(--brand-blue);
+	--color-translucent-blue: var(--translucent-blue);
 	--color-light-tan: var(--light-tan);
 	--color-logo-orange: var(--logo-orange);
 	--color-wheat-extra-light: var(

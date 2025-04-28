@@ -31,13 +31,13 @@ export default function FranchiseMetricsSection() {
 				<div
 				className="relative w-[120vw] left-1/2 -translate-x-1/2"
 			>
-					<Image
+					{/* <Image
 						className="w-full transform"
 						src="/new-arrows.svg"
 						width={1000}
 						height={1000}
 						alt="franchise metrics section divider"
-					/>
+					/> */}
 				</div>
 			</div>
 			<div className="relative w-full">
