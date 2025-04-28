@@ -5,11 +5,13 @@ import ContactSection2 from "./components/layout/contact-section-2/contact-secti
 import AvailabilityMapSection from "./components/layout/great-harvest-map-section/AvailabilityMapSection";
 import TestimonialSection from "./components/layout/testimonial-section/TestimonialSection";
 import TheProcessSection from "./components/layout/process-section";
+import OurHistory from "./components/layout/our-history/our-history-section";
 
 export default function Home() {
 	return (
 		<div className="flex flex-col relative min-h-screen">
 			<LandingPage />
+			<OurHistory />
 			<FranchiseMetricsSection />
 			<TestimonialSection />
 			<TheProcessSection />
