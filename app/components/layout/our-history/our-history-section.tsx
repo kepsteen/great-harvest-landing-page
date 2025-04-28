@@ -5,15 +5,15 @@ export default function OurHistory() {
 	return (
 		<section
 			id="ourHistory"
-			className="bg-wheat-light flex flex-col items-center py-[25px]"
+			className="bg-wheat-light flex flex-col lg:flex-row items-center lg:justify-center lg:gap-[50px] py-[25px] lg:py-[50px]"
 		>
-			<div className="w-[383px] h-[640px] relative md:w-[702px] md:h-[526px]">
+			<div className="w-[383px] h-[640px] relative md:w-[702px] md:h-[526px] lg:w-[522px] lg:h-[600px]">
 				<img
 					src="/decorative/torn-paper-background.png"
 					alt=""
 					className="pt-[10px] pointer-events-none object-fill w-full h-full  mx-auto"
 				/>
-				<div className="h-[600px] md:h-[574px] absolute top-[40px] left-[50%] ml-[-191.5px] md:ml-[-320px] px-[10px] flex flex-col items-center text-brand-blue">
+				<div className="h-[600px] md:h-[574px] absolute top-[40px] left-[50%] ml-[-191.5px] md:ml-[-320px] lg:ml-[-230px] px-[10px] flex flex-col items-center text-brand-blue lg:pt-[10px]">
 					<img
 						src="/decorative/wheat-mobile.png"
 						alt=""
@@ -29,7 +29,7 @@ export default function OurHistory() {
 					<h2 className="text-[48px] text-center mb-[15px]">
 						Our History
 					</h2>
-					<p className="text-[18px] leading-[25px] tracking-[0.2px] px-[24px] md:w-[628px]">
+					<p className="text-[18px] leading-[25px] tracking-[0.2px] px-[24px] md:w-[628px] lg:w-[422px]">
 						In 1976, Pete and Laura Wakeman opened
 						the first Great Harvest in Great
 						Falls, Montana after falling in love
@@ -50,7 +50,7 @@ export default function OurHistory() {
 			<img
 				src="/images/franchisee-in-field.jpg"
 				alt="male Great Harvest franchisee stands in a field of wheat"
-				className="rotate-[-1deg] mt-[30px] h-[252px] w-[352px]"
+				className="rotate-[-1deg] mt-[30px] h-[252px] w-[352px] lg:rotate-[2deg] lg:w-[490px] lg:h-[350px]"
 				style={{
 					objectFit: "cover",
 					objectPosition: "0 -100px",
