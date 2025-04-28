@@ -7,18 +7,29 @@ export default function OurHistory() {
 			id="ourHistory"
 			className="bg-wheat-light flex flex-col items-center py-[25px]"
 		>
-			<div className="bg-[url(/decorative/torn-paper-background.png)] bg-cover text-brand-blue pt-[10px]">
-				<div className="h-[600px] px-[10px] pt-[40px]">
+			<div className=" w-[383px] h-[640px]  relative">
+				<img
+					src="/decorative/torn-paper-background.png"
+					alt=""
+					className="pt-[10px] mx-auto pointer-events-none object-fill w-full h-full"
+				/>
+				<div className="h-[600px] md:h-[574px] absolute top-[40px] px-[10px] flex flex-col items-center text-brand-blue ">
 					<img
 						src="/decorative/wheat-mobile.png"
 						alt=""
-						className="h-[120px] w-full"
+						className="h-[120px] w-full md:hidden"
+						style={{ objectFit: "contain" }}
+					/>
+					<img
+						src="/decorative/wheat-large.png"
+						alt=""
+						className="hidden md:block md:w-full md:h-[120px]"
 						style={{ objectFit: "contain" }}
 					/>
 					<h2 className="text-[48px] text-center mb-[15px]">
 						Our History
 					</h2>
-					<p className="text-[18px] leading-[25px] tracking-[0.2px] px-[24px]">
+					<p className="text-[18px] leading-[25px] tracking-[0.2px] px-[24px] md:w-[628px]">
 						In 1976, Pete and Laura Wakeman opened
 						the first Great Harvest in Great
 						Falls, Montana after falling in love
