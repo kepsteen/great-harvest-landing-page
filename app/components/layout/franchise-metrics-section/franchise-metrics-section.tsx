@@ -6,7 +6,10 @@ import MetricCard from "./metric-card";
 export default function FranchiseMetricsSection() {
 	return (
 		<>
-			<div className="franchise-metrics-section bg-[url('/images/flour-dusted-vertical.png')] bg-cover bg-center pt-[50px] bg-blend-overlay bg-[#ddc6bb66] px-6 pb-12">
+			<section
+				className="franchise-metrics-section bg-[url('/images/flour-dusted-vertical.png')] bg-cover bg-center pt-[50px] bg-blend-overlay bg-[#ddc6bb66] px-6 pb-12"
+				id="whyGreatHarvest"
+			>
 				<div className="bg-white/30 p-6 rounded-xl shadow-md max-w-2xl mx-auto mb-8">
 					<h2 className="text-5xl font-bold text-center font-ghSimple mb-4">
 						Why Great Harvest?
@@ -30,7 +33,7 @@ export default function FranchiseMetricsSection() {
 						/>
 					))}
 				</section>
-			</div>
+			</section>
 		</>
 	);
 }
