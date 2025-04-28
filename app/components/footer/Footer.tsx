@@ -30,11 +30,19 @@ export default function Footer() {
 	return (
 		<>
 			<footer className="bg-charcoal-gray text-white">
-				<div className="flex flex-col md:flex-row md:justify-between md:w-2/3 md:mx-auto py-10">
-					<div className="flex flex-col gap-y-5 items-center">
-						<ul className="flex flex-col gap-y-5">
-							{footerNavMap}
-						</ul>
+				<div className="flex flex-col items-center md:flex-row md:justify-between md:px-[60px] md:mx-auto py-[30px]">
+					<div className="flex flex-row gap-[30px] items-center">
+						<Image
+							src="/logos/GHlogo-vertical.png"
+							alt="Great Harvest logo"
+							height={204}
+							width={122.4}
+						/>
+						<div className="flex flex-col gap-y-5 items-center">
+							<ul className="flex flex-col gap-y-5">
+								{footerNavMap}
+							</ul>
+						</div>
 					</div>
 					<div className="flex flex-col items-center">
 						<div className="pt-10 md:pt-0 gap-y-5 grid grid-rows-2  grid-cols-[50px_auto]  items-center">
