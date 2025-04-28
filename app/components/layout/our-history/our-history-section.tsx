@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 
 export default function OurHistory() {
 	return (
@@ -11,7 +10,7 @@ export default function OurHistory() {
 				<img
 					src="/decorative/torn-paper-background.png"
 					alt=""
-					className="pt-[10px] pointer-events-none object-fill w-full h-full  mx-auto"
+					className="pt-[10px] pointer-events-none object-fill w-full h-full mx-auto"
 				/>
 				<div className="h-[600px] md:h-[574px] absolute top-[40px] left-[50%] ml-[-191.5px] md:ml-[-320px] lg:ml-[-230px] px-[10px] flex flex-col items-center text-brand-blue lg:pt-[10px]">
 					<img
@@ -47,15 +46,41 @@ export default function OurHistory() {
 					</p>
 				</div>
 			</div>
-			<img
-				src="/images/franchisee-in-field.jpg"
-				alt="male Great Harvest franchisee stands in a field of wheat"
-				className="rotate-[-1deg] mt-[30px] h-[252px] w-[352px] lg:rotate-[2deg] lg:w-[490px] lg:h-[350px]"
-				style={{
-					objectFit: "cover",
-					objectPosition: "0 -100px",
-				}}
-			/>
+			<div className="relative">
+				<img
+					src="/images/franchisee-in-field.jpg"
+					alt="male Great Harvest franchisee stands in a field of wheat"
+					className="rotate-[-1deg] mt-[30px] h-[252px] w-[352px] md:w-[563px] md:h-[402px] lg:rotate-[2deg] lg:w-[490px] lg:h-[350px] relative"
+					style={{
+						objectFit: "cover",
+						objectPosition: "0 -100px",
+					}}
+				/>
+				<img
+					src="/decorative/gold-photo-corner.png"
+					alt=""
+					className="absolute right-[-1px] top-[24px] lg:top-[34px] lg:rotate-[2deg] lg:right-[-8px]"
+					//top right
+				/>
+				<img
+					src="/decorative/gold-photo-corner.png"
+					alt=""
+					className="absolute left-[-4px] top-[30px] rotate-[-90deg] lg:rotate-[-88deg] lg:top-[20px] lg:left-[2px]"
+					//top left
+				/>
+				<img
+					src="/decorative/gold-photo-corner.png"
+					alt=""
+					className="absolute left-[-1px] bottom-[-6px] rotate-180 lg:rotate-[182deg] lg:left-[-8px] lg:bottom-[4px]"
+					//bottom left
+				/>
+				<img
+					src="/decorative/gold-photo-corner.png"
+					alt=""
+					className="absolute right-[-4px] bottom-[0px] rotate-90 md:right-[-5px] lg:rotate-[92deg] lg:right-[2px] lg:bottom-[-12px]"
+					//bottom right
+				/>
+			</div>
 		</section>
 	);
 }
