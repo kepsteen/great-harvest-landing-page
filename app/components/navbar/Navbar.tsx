@@ -53,10 +53,9 @@ export default function Navbar() {
 					/>
 					<DesktopNav />
 				</div>
-				{isMenuOpened && (
 					<div
 					id="mobile-menu"
-					className="absolute top-[106px] left-0 w-full transition-all duration-300 ease-in-out transform"
+					className={`absolute top-[106px] left-0 w-full transition-all duration-300 ease-in-out transform  ${isMenuOpened ? 'translate-y-0 opacity-100 ' : '-translate-y-full opacity-0 pointer-events-none '}`}
 					aria-hidden={!isMenuOpened}
 					>
 						<OpenedNavMenu
@@ -64,7 +63,7 @@ export default function Navbar() {
 							isMenuOpen={isMenuOpened}
 						/>
 					</div>
-				)}
+
 			</nav>
 		</>
 	);
