@@ -115,6 +115,7 @@ const defaultStyles = `
 	}
 `;
 
+// Renamed component
 const HubspotContactForm = (props: {
 	region: string;
 	portalId: string;
@@ -143,7 +144,8 @@ const HubspotContactForm = (props: {
 					region: region,
 					portalId: portalId,
 					formId: formId,
-					target: "#hubspotForm",
+					target:
+						"#contact-section-2-hubspotForm",
 					css: customCss || defaultStyles,
 				});
 			}
@@ -165,7 +167,9 @@ const HubspotContactForm = (props: {
 			}
 			// Remove form when component unmounts
 			const formContainer =
-				document.getElementById("hubspotForm");
+				document.getElementById(
+					"contact-section-2-hubspotForm"
+				);
 			if (formContainer) {
 				formContainer.innerHTML = "";
 			}
@@ -176,7 +180,7 @@ const HubspotContactForm = (props: {
 		<div
 			className={`hubspot-form-wrapper ${className}`}
 		>
-			<div id="hubspotForm"></div>
+			<div id="contact-section-2-hubspotForm"></div>
 		</div>
 	);
 };
