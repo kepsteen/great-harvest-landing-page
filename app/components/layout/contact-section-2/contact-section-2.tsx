@@ -22,8 +22,8 @@ const customHubspotStyles = `
 export default function ContactSection2() {
 	return (
 		<section
-			id="LP-contact-form-2"
-			className="bg-brand-blue bg-[url('/contact-form-2-bg.svg')] bg-repeat bg-center py-8 px-4 md:px-20"
+			id="readytofranchise"
+			className="bg-brand-blue bg-[url('/decorative/chevron-background.svg')] bg-repeat bg-center py-8 px-4 md:px-20"
 		>
 			<div className="max-w-3xl mx-auto">
 				<Image

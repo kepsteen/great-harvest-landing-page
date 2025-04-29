@@ -21,13 +21,6 @@
 	--logo-orange: #dd4a2f;
 	--dark-wood: #5e3d1d;
 	--translucent-blue: #0a22408c;
-	--light-tan: #d0c6b7;
-	--wheat-extra-light: #edd5ac4d;
-	--wheat-light: #e9d4b0;
-	--wheat-medium: #debe91;
-	--wheat-dark: #c7a983;
-	--logo-orange: #dd4a2f;
-	--dark-wood: #5e3d1d;
 	--charcoal-gray: #534f49;
 }
 
@@ -61,9 +54,8 @@
 	--color-wheat-light: var(--wheat-light);
 	--color-wheat-medium: var(--wheat-medium);
 	--color-wheat-dark: var(--wheat-dark);
-	--color-wheat-medium: var(--wheat-medium);
-	--color-wheat-dark: var(--wheat-dark);
 	--color-charcoal-gray: var(--charcoal-gray);
+	--color-dark-wood: var(--dark-wood);
 
 	--font-ghPlain: "ghPlain", "sans-serif";
 	--font-ghSimple: "ghSimple", "sans-serif";
