@@ -14,6 +14,7 @@ export default function OpenedNavMenu({
 		>
 			<a
 				href={tab.href}
+				tabIndex={isMenuOpen ? 0 : -1}
 				className="cursor-pointer"
 				onClick={() => setIsMenuOpen(!isMenuOpen)}
 			>
@@ -39,6 +40,7 @@ export default function OpenedNavMenu({
 				<div className="py-5 text-center">
 					<button
 						className="bg-white py-4 px-5 rounded-full text-black text-[20px] cursor-pointer"
+						tabIndex={isMenuOpen ? 0 : -1}
 						onClick={() =>
 							setIsMenuOpen(!isMenuOpen)
 						}
