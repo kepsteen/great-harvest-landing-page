@@ -6,11 +6,26 @@ type Link = {
 };
 
 const footerNavLinks: Link[] = [
-	{ title: "Locations", link: "" },
-	{ title: "Order Catering", link: "" },
-	{ title: "Franchise", link: "" },
-	{ title: "About Us", link: "" },
-	{ title: "Contact Us", link: "" },
+	{
+		title: "Locations",
+		link: "https://www.greatharvest.com/local-bakery-information",
+	},
+	{
+		title: "Order Catering",
+		link: "https://www.ezcater.com/brand/pvt/great-harvest-bread-co",
+	},
+	{
+		title: "Franchise",
+		link: "https://www.greatharvest.com/franchise",
+	},
+	{
+		title: "About Us",
+		link: "https://www.greatharvest.com/company/franchise-business-philosophy",
+	},
+	{
+		title: "Contact Us",
+		link: "https://www.greatharvest.com/company/great-harvest-franchise-office",
+	},
 ];
 
 export default function Footer() {
@@ -78,7 +93,7 @@ export default function Footer() {
 							</div>
 						</div>
 						<div className="flex justify-center gap-x-5 pt-5">
-							<a href="#">
+							<a href="https://twitter.com/GreatHarvest">
 								<Image
 									src={"./twitter-bird.svg"}
 									alt="twitter"
@@ -87,7 +102,7 @@ export default function Footer() {
 									aria-label="Visit Twitter"
 								/>
 							</a>
-							<a href="#">
+							<a href="https://www.facebook.com/GreatHarvestBreadCo/">
 								<Image
 									src={"./facebook-logo.svg"}
 									alt="facebook"
@@ -96,7 +111,7 @@ export default function Footer() {
 									aria-label="Visit Facebook"
 								/>
 							</a>
-							<a href="#">
+							<a href="https://www.linkedin.com/company/great-harvest-bread-co.">
 								<Image
 									src={"./linkedin-logo.svg"}
 									alt="linkedin"
