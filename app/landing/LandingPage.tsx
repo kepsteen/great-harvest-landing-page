@@ -6,7 +6,7 @@ export default function LandingPage() {
 		<>
 			<section
 				id="home"
-				className="landing-section pt-35 lg:pt-0 pb-[230px] relative"
+				className="landing-section pt-35 lg:pt-0 pb-[300px] relative"
 			>
 				<div className="landing-section-wrapper">
 					<div className="">
@@ -18,7 +18,7 @@ export default function LandingPage() {
 									</h1>
 								</div>
 								<div className="w-full px-5 md:px-0 lg:pl-5 lg:pr-0">
-									<div className="px-7 py-2.5 md:py-5 bg-lightBeigeOp text-brandBlue font-bold text-xl md:mx-[80px] lg:mx-0 ">
+									<div className="px-7 py-2.5 md:py-5 bg-lightBeigeOp text-brandBlue font-bold font-ghPlain text-xl md:mx-[80px] lg:mx-0 ">
 										<p>
 											We&apos;re looking for
 											passionate entrepreneurs who
