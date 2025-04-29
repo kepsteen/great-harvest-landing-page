@@ -18,13 +18,13 @@ export default function AvailabilityMapSection() {
 
 	return (
 		<>
-			<section className="bg-wheat-extra-light  w-full">
+			<section className="bg-[linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('/images/wheat-silo.jpg')] bg-no-repeat bg-[left_25%_top_10%] bg-cover w-full">
 				<div className="flex flex-col gap-y-7.5 py-7.5">
 					<div>
-						<h2 className="text-[48px] font-medium text-center text-brand-blue drop-shadow-lg pb-[20px]">
+						<h2 className="text-[48px] font-bold text-center text-brand-blue drop-shadow-lg pb-[20px]">
 							Ripe for Harvesting
 						</h2>
-						<p className="text-[20px] px-6 text-center text-brand-blue">
+						<p className="text-[20px] px-6 text-center font-ghPlain text-brand-blue">
 							Which neighborhood will you share
 							Great Harvest with?
 						</p>
@@ -40,20 +40,20 @@ export default function AvailabilityMapSection() {
 					</div>
 					<div className="mx-auto grid gap-y-2.5">
 						<div className="flex">
-							<div className="w-7 h-7 rounded-full bg-wheat-medium mr-2.5"></div>
-							<p className="text-lg">
+							<div className="w-7 h-7 rounded-full bg-white bg-cover mr-2.5"></div>
+							<p className="text-lg font-ghSimpleBold">
 								High Availability
 							</p>
 						</div>
 						<div className="flex">
-							<div className="w-7 h-7 rounded-full bg-light-tan mr-2.5"></div>
-							<p className="text-lg">
+							<div className="w-7 h-7 rounded-full bg-[url('/decorative/dots.png')] bg-cover mr-2.5"></div>
+							<p className="text-lg font-ghSimpleBold">
 								Mixed Availability
 							</p>
 						</div>
 						<div className="flex">
-							<div className="w-7 h-7 rounded-full bg-wheat-dark mr-2.5"></div>
-							<p className="text-lg">
+							<div className="w-7 h-7 rounded-full bg-brand-blue mr-2.5"></div>
+							<p className="text-lg font-ghSimpleBold">
 								Low Availability
 							</p>
 						</div>
