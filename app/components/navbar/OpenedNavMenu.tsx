@@ -6,22 +6,21 @@ export default function OpenedNavMenu({
 }: {
 	isMenuOpen: boolean;
 	setIsMenuOpen: (arg: boolean) => void;
-})
-
-{
+}) {
 	const tabMap = navMenuData.map((tab, index) => (
-		<li key={index} className="py-4 border-b-[1px] text-[20px]">
+		<li
+			key={index}
+			className="py-4 border-b-[1px] text-[20px]"
+		>
 			<a
-				href="#"
+				href={tab.href}
 				className="cursor-pointer"
-				onClick={() =>
-					setIsMenuOpen(!isMenuOpen)
-				}
+				onClick={() => setIsMenuOpen(!isMenuOpen)}
 			>
 				{tab.title}
 			</a>
 		</li>
-	))
+	));
 
 	return (
 		<>
