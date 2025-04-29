@@ -99,7 +99,6 @@ export default function Footer() {
 									alt="twitter"
 									width={41}
 									height={41}
-									aria-label="Visit Twitter"
 								/>
 							</a>
 							<a href="https://www.facebook.com/GreatHarvestBreadCo/">
@@ -108,7 +107,6 @@ export default function Footer() {
 									alt="facebook"
 									width={41}
 									height={41}
-									aria-label="Visit Facebook"
 								/>
 							</a>
 							<a href="https://www.linkedin.com/company/great-harvest-bread-co.">
@@ -117,7 +115,6 @@ export default function Footer() {
 									alt="linkedin"
 									width={41}
 									height={41}
-									aria-label="Visit LinkedIn"
 								/>
 							</a>
 						</div>
