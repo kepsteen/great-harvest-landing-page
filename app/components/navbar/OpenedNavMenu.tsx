@@ -1,77 +1,45 @@
+import { navMenuData } from "./data/nav-menu-data";
+
 export default function OpenedNavMenu({
 	isMenuOpen,
 	setIsMenuOpen,
 }: {
 	isMenuOpen: boolean;
 	setIsMenuOpen: (arg: boolean) => void;
-}) {
+})
+
+{
+	const tabMap = navMenuData.map((tab, index) => (
+		<li key={index} className="py-4 border-b-[1px] text-[20px]">
+			<a
+				href="#"
+				className="cursor-pointer"
+				onClick={() =>
+					setIsMenuOpen(!isMenuOpen)
+				}
+			>
+				{tab.title}
+			</a>
+		</li>
+	))
+
 	return (
 		<>
 			<div
 				id="mobile-nav-menu"
-				className="pt-5 bg-cream rounded-b-xl"
+				className="pt-5 bg-logo-orange rounded-b-xl text-white"
 			>
-				<h1 className="text-center text-[20px]">
+				<h1 className="text-center text-[20px] font-ghModDisplay">
 					Jump to:
 				</h1>
 				<div className="px-5">
-					<ul className="flex flex-col bg-tan text-center mt-5">
-						<li className="py-4 border-b-[1px] text-[20px]">
-							<a
-								href="#readyToFranchise"
-								className="cursor-pointer"
-								onClick={() =>
-									setIsMenuOpen(!isMenuOpen)
-								}
-							>
-								Ready to Franchise
-							</a>
-						</li>
-						<li className="py-4 border-b-[1px] text-[20px]">
-							<a
-								href="#whyGreatHarvest"
-								onClick={() =>
-									setIsMenuOpen(!isMenuOpen)
-								}
-							>
-								Why Great Harvest?
-							</a>
-						</li>
-						<li className="py-4 border-b-[1px] text-[20px]">
-							<a
-								href="#testimonial"
-								onClick={() =>
-									setIsMenuOpen(!isMenuOpen)
-								}
-							>
-								Franchise Testimonial
-							</a>
-						</li>
-						<li className="py-4 border-b-[1px] text-[20px]">
-							<a
-								href="#theProcess"
-								onClick={() =>
-									setIsMenuOpen(!isMenuOpen)
-								}
-							>
-								The Process
-							</a>
-						</li>
-						<li className="py-4 border-b-[1px] text-[20px]">
-							<a
-								href="#faq"
-								onClick={() =>
-									setIsMenuOpen(!isMenuOpen)
-								}
-							>
-								FAQs
-							</a>
-						</li>
+					<ul className="flex flex-col text-center mt-5 font-ghPlain">
+						{tabMap}
 					</ul>
 				</div>
 				<div className="py-5 text-center">
 					<button
-						className="bg-[#534F49] py-4 px-5 rounded-full text-white text-[20px] cursor-pointer"
+						className="bg-white py-4 px-5 rounded-full text-black text-[20px] cursor-pointer"
 						onClick={() =>
 							setIsMenuOpen(!isMenuOpen)
 						}
