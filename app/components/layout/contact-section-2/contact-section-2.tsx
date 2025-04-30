@@ -7,6 +7,8 @@ const customHubspotStyles = `
 	.hsfc-FieldLabel,
 	.hs-input {
 		font-family: var(--font-ghSimple) !important;
+		outline: 2px solid #3ce041;
+    border: 1px solid #f913f9;
 	}
 	.hsfc-TextField::placeholder {
 		font-family: var(--font-ghSimple);
@@ -16,6 +18,13 @@ const customHubspotStyles = `
 	}
 	.hs-input::-ms-input-placeholder { 
 		font-family: var(--font-ghSimple);
+	}
+	.hsfc-TextInput .input input:focus-visible {
+    outline: 2px solid #3ce041;
+    border: 1px solid #f913f9;
+	}
+	input {
+		background-color: #000;
 	}
 `;
 
@@ -27,11 +36,18 @@ export default function ContactSection2() {
 		>
 			<div className="max-w-3xl mx-auto">
 				<Image
-					src="/icons/white-wheat.svg"
+					src="/decorative/white-wheat-desktop.svg"
 					alt=""
 					width={300}
 					height={130}
-					className="mx-auto mb-4"
+					className="mx-auto mb-4 hidden md:block"
+				/>
+				<Image
+					src="/decorative/white-wheat-mobile.svg"
+					alt=""
+					width={177}
+					height={130}
+					className="mx-auto mb-4 block md:hidden"
 				/>
 				<h2 className="text-center text-white text-5xl font-bold mb-4 font-ghSimple">
 					Bake With Us
