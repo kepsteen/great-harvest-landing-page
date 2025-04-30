@@ -51,10 +51,10 @@ export default function AvailabilityMapSection() {
 					</div>
 					<div className="w-full">
 						<Image
-							className="mx-auto min-w-[350px] w-5/6"
+							className="mx-auto min-w-[350px] w-5/6 lg:w-3/4"
 							src="/images/updated-map.png"
-							width={350}
-							height={220}
+							width={700}
+							height={440}
 							alt="map of available Great Harvest locations"
 						/>
 					</div>
