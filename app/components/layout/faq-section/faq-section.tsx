@@ -47,7 +47,7 @@ export default function FAQSection() {
 							</span>
 						</summary>
 						<div className="faq-answer-content">
-							<p className="text-[1rem] text-black pb-[15px]">
+							<p className="text-[1rem] text-black py-[15px]">
 								{faq.answer}
 							</p>
 						</div>
