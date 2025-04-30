@@ -25,7 +25,7 @@ export default function OpenedNavMenu({
 		<>
 			<div
 				id="mobile-nav-menu"
-				className="pt-5 bg-logo-orange rounded-b-xl text-white"
+				className="pt-5 bg-logo-orange rounded-b-xl text-white shadow-[0px_4px_4px_0px_#00000040] max-w-[400px]"
 			>
 				<h1 className="text-center text-[20px] font-ghModDisplay">
 					Jump to:
