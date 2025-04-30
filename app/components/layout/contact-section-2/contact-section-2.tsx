@@ -61,7 +61,7 @@ export default function ContactSection2() {
 				<HubspotContactForm
 					region="na1"
 					portalId="53298"
-					formId="3d7b7292-e1bb-4778-b4b8-1ccbc20dbc81"
+					formId="2fd12644-4958-4cb0-8e7a-9504f82173e8"
 					customCss={customHubspotStyles}
 					className="w-full"
 				/>
