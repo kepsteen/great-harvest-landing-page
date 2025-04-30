@@ -18,7 +18,7 @@ export const navMenuData: NavMenuDataInterface[] =
 			href: "whyGreatHarvest",
 		},
 		{
-			title: "Franchises Tesimonials",
+			title: "Franchisee Testimonials",
 			href: "testimonial",
 		},
 		{
