@@ -30,7 +30,7 @@ export default function Navbar() {
 	}, []);
 
 	return (
-		<>
+		<header>
 			<nav
 				className={`fixed top-0 left-0 w-full px-5 md:px-6 lg:px-[80px] py-5 z-50 transition-all duration-300 ease-in-out ${isMenuOpened || isScrolled ? " py-4 bg-cream" : "bg-transparent py-5"}
 			`}
@@ -83,6 +83,6 @@ export default function Navbar() {
 			>
 				READY TO FRANCHISE
 			</Link>
-		</>
+		</header>
 	);
 }
