@@ -31,7 +31,7 @@ export default function LandingPage() {
 								</div>
 							</div>
 							<div
-								className="bg-translucent-blue mt-7.5 lg:mt-0 mx-5 md:mx-[80px] lg:mx-[40px] xl:ml-[50px] rounded-xl"
+								className="bg-translucent-blue mt-7.5 lg:mt-0 mx-5 md:mx-[80px] lg:mx-[40px] xl:ml-[50px] rounded-xl min-h-[800px]"
 								role="group"
 							>
 								<h2 className="text-[48px] text-white text-center pt-6">
