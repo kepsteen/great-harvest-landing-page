@@ -92,18 +92,18 @@ export default function Footer() {
 								</a>
 							</div>
 						</div>
-						<div className="flex justify-center gap-x-5 pt-5">
+						<div className="flex flex-row items-center justify-center gap-x-5 pt-5">
 							<a href="https://twitter.com/GreatHarvest">
 								<Image
-									src={"./twitter-bird.svg"}
-									alt="twitter"
-									width={41}
-									height={41}
+									src={"/icons/x-logo.png"}
+									alt="x (formerly twitter)"
+									width={32}
+									height={32}
 								/>
 							</a>
 							<a href="https://www.facebook.com/GreatHarvestBreadCo/">
 								<Image
-									src={"./facebook-logo.svg"}
+									src={"/icons/facebook-logo.svg"}
 									alt="facebook"
 									width={41}
 									height={41}
@@ -111,7 +111,7 @@ export default function Footer() {
 							</a>
 							<a href="https://www.linkedin.com/company/great-harvest-bread-co.">
 								<Image
-									src={"./linkedin-logo.svg"}
+									src={"/icons/linkedin-logo.svg"}
 									alt="linkedin"
 									width={41}
 									height={41}
