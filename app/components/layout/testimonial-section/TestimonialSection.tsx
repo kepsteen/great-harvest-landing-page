@@ -9,7 +9,7 @@ export default function TestimonialSection() {
 			>
 				<div>
 					<h2 className="text-[48px] font-bold text-center text-white py-4 md:pt-0">
-						Backed by our Franchisees
+						Backed by Our Franchisees
 					</h2>
 					<div className="bg-white rounded-xl mx-5 px-6 md:px-9 pt-6 md:pb-6 md:grid md:grid-cols-[35%_65%] md:mx-[84px] place-self-center lg:w-3/5">
 						<div className="mb-2.5 md:order-2 lg:my-auto">
