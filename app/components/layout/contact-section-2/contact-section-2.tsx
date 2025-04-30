@@ -5,11 +5,6 @@ import "./contact-section-2.css";
 // Define custom styles for the HubSpot form
 const customHubspotStyles = `
 	.hsfc-FieldLabel,
-	.hs-input {
-		font-family: var(--font-ghSimple) !important;
-		outline: 2px solid #3ce041;
-    border: 1px solid #f913f9;
-	}
 	.hsfc-TextField::placeholder {
 		font-family: var(--font-ghSimple);
 	}
@@ -18,10 +13,6 @@ const customHubspotStyles = `
 	}
 	.hs-input::-ms-input-placeholder {
 		font-family: var(--font-ghSimple);
-	}
-	.hsfc-TextInput .input input:focus-visible {
-    outline: 2px solid #3ce041;
-    border: 1px solid #f913f9;
 	}
 	input {
 		background-color: #000;
