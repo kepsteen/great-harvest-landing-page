@@ -11,7 +11,7 @@ export default function TestimonialSection() {
 					<h2 className="text-[48px] font-bold text-center text-white pb-4 md:pt-0">
 						Backed by Our Franchisees
 					</h2>
-					<div className="bg-white rounded-xl mx-5 px-6 md:px-9 pt-6 md:pb-6 md:grid md:grid-cols-[35%_65%] md:mx-[84px] place-self-center lg:w-3/5">
+					<div className="bg-white rounded-xl mx-5 px-6 md:px-9 pt-6 md:pb-6 md:grid md:grid-cols-[35%_65%] md:mx-[84px] place-self-center lg:w-3/5 lg:mx-auto">
 						<div className="mb-2.5 md:order-2 lg:my-auto">
 							<p className="text-[16px] leading-[17px] md:pr-0 md:pl-5">
 								“Owning a Great Harvest bakery has
