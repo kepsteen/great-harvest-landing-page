@@ -15,7 +15,8 @@ export const metricCardData: MetricCardData[] = [
 			"Super-Loyal Customer Base",
 		],
 		footerText: "We Train You to Win",
-		badgeSvgPath: "/icons/metric-badge1.svg",
+		badgeSvgPath:
+			"/decorative/metric-badge-left.png",
 	},
 	{
 		id: 2,
@@ -32,7 +33,8 @@ export const metricCardData: MetricCardData[] = [
 		],
 		footerText:
 			"Leverage Our 50 years of Franchising",
-		badgeSvgPath: "/icons/metric-badge2.svg",
+		badgeSvgPath:
+			"/decorative/metric-badge-center.png",
 	},
 	{
 		id: 3,
@@ -48,6 +50,7 @@ export const metricCardData: MetricCardData[] = [
 			"Local and National Marketing Support",
 		],
 		footerText: "Let's Make Bread Together",
-		badgeSvgPath: "/icons/metric-badge3.svg",
+		badgeSvgPath:
+			"/decorative/metric-badge-right.png",
 	},
 ];
