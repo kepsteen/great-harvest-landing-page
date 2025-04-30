@@ -39,7 +39,7 @@ export default function MetricCard({
             bg-center
             bg-[length:100%_100%]
             flex items-center justify-center
-            text-white 
+            text-black 
             italic
             text-xl
 						font-ghPlain
