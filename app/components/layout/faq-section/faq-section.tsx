@@ -39,7 +39,7 @@ export default function FAQSection() {
 				{faqs.map((faq) => (
 					<details
 						key={faq.question}
-						className="bg-white rounded-lg border-[0.5px] border-charcoal-gray p-[10px]"
+						className="bg-white rounded-lg border-[0.5px] border-charcoal-gray p-[10px] open:border-logo-orange"
 					>
 						<summary className="text-charcoal-gray font-bold text-[1rem] pb-[10px] cursor-pointer focus:outline-offset-2 flex justify-between items-start gap-2 hover:underline hover:underline-offset-2">
 							<span className="flex-1">
