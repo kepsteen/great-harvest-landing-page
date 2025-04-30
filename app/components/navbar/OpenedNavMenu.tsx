@@ -15,7 +15,7 @@ export default function OpenedNavMenu({
 			<a
 				href={tab.href}
 				tabIndex={isMenuOpen ? 0 : -1}
-				className="cursor-pointer"
+				className="cursor-pointer hover:font-bold"
 				onClick={() => setIsMenuOpen(!isMenuOpen)}
 			>
 				{tab.title}
@@ -39,7 +39,7 @@ export default function OpenedNavMenu({
 				</div>
 				<div className="py-5 text-center">
 					<button
-						className="bg-white py-4 px-5 rounded-full text-black text-[20px] cursor-pointer"
+						className="bg-white py-4 px-5 rounded-full text-black text-[20px] cursor-pointer hover:bg-gray-200"
 						tabIndex={isMenuOpen ? 0 : -1}
 						onClick={() =>
 							setIsMenuOpen(!isMenuOpen)

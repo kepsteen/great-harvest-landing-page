@@ -12,7 +12,7 @@ export default function MobileNav({
 			<div className="flex items-center gap-x-6 lg:hidden">
 				<div>
 					<button
-						className="cursor-pointer"
+						className="cursor-pointer transform transition duration-200 hover:scale-105"
 						aria-label="Open mobile menu"
 						aria-expanded={
 							isMenuOpen ? "true" : "false"
