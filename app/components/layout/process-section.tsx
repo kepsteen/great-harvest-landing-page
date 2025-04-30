@@ -8,7 +8,7 @@ export default function TheProcessSection() {
 		>
 			<div className="py-16 w-full max-w-full mx-auto">
 				<div className="container mx-auto px-4 max-w-[342px] md:max-w-[632px] lg:max-w-[735px] text-brand-blue">
-					<div className="text-center bg-white shadow-[0px_4px_4px_0px_#00000040] p-[10px]">
+					<div className="text-center bg-white/90 border border-black shadow-[0px_4px_4px_0px_#00000040] p-[10px]">
 						<h2 className="text-[48px] mb-[20px] font-bold">
 							Our Revolutionary Process
 						</h2>
@@ -19,7 +19,7 @@ export default function TheProcessSection() {
 							using only Montana-grown wheat.
 						</p>
 					</div>
-					<div className="flex flex-col md:flex-row md:gap-[30px] bg-white shadow-[4px_4px_4px_0px_#00000040] rounded-[20px] p-[20px] lg:px-[40px] mt-[20px] ">
+					<div className="flex flex-col md:flex-row md:gap-[30px] bg-white/90 border border-black shadow-[4px_4px_4px_0px_#00000040] rounded-[20px] p-[20px] lg:px-[40px] mt-[20px] ">
 						<ul className="flex flex-col gap-[15px]">
 							<li className="flex flex-row items-start gap-[15px]">
 								<Image
@@ -74,7 +74,7 @@ export default function TheProcessSection() {
 								</div>
 							</li>
 						</ul>
-						<div className="relative mt-[30px] hidden md:block w-full h-auto md:max-w-[281px]">
+						{/* <div className="relative hidden md:block w-full h-auto md:max-w-[281px]">
 							<Image
 								src="/images/southlake-interior.jpg"
 								alt="Great Harvest worker wearing a dark t-shirt prepares an item"
@@ -82,19 +82,19 @@ export default function TheProcessSection() {
 								objectFit="cover"
 								className="shadow-[4px_4px_4px_0px_#00000040]"
 							/>
-						</div>
+						</div> */}
+						<Image
+							src="/images/southlake-interior.jpg"
+							alt="Great Harvest worker wearing a dark t-shirt prepares an item"
+							width={200}
+							height={136}
+							// style={{
+							// 	width: "100%",
+							// 	height: "auto",
+							// }}
+							className="w-full object-cover object-bottom-left rounded-xl"
+						/>
 					</div>
-					<Image
-						src="/images/southlake-interior.jpg"
-						alt="Great Harvest worker wearing a dark t-shirt prepares an item"
-						width={0}
-						height={0}
-						style={{
-							width: "100%",
-							height: "auto",
-						}}
-						className="shadow-[4px_4px_4px_0px_#00000040] mt-[30px] md:hidden"
-					/>
 				</div>
 			</div>
 		</section>
