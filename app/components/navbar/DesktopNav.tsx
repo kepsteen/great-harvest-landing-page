@@ -21,12 +21,9 @@ export default function DesktopNav() {
 					</li>
 					<li>
 						<div>
-							<a
-								className="text-[20px] font-normal p-4 bg-white border hover:bg-gray-200"
-								href="#readytofranchise"
-							>
+							<Link to="readytofranchise" smooth={true} duration={100} offset={-100} className="text-[20px] font-normal p-4 bg-white border hover:bg-gray-200">
 								Ready to Franchise
-							</a>
+							</Link>
 						</div>
 					</li>
 				</ul>
