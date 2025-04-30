@@ -37,7 +37,7 @@ export default function Navbar() {
 				aria-label="Main Navigation"
 			>
 				<div className="flex justify-between mx-auto">
-					<div className="min-w-[100px] max-w-[160px]">
+					<div className="min-w-[100px] max-w-[160px] transform transition duration-200 hover:scale-105">
 						<a
 							href="#home"
 							onClick={() => setIsMenuOpen(false)}
@@ -55,17 +55,16 @@ export default function Navbar() {
 					/>
 					<DesktopNav />
 				</div>
-					<div
+				<div
 					id="mobile-menu"
-					className={`absolute top-[106px] left-0 w-full transition-all duration-300 ease-in-out transform  ${isMenuOpened ? 'translate-y-0 opacity-100 ' : '-translate-y-full opacity-0 pointer-events-none '}`}
+					className={`absolute top-[106px] left-0 w-full transition-all duration-300 ease-in-out transform  ${isMenuOpened ? "translate-y-0 opacity-100 " : "-translate-y-full opacity-0 pointer-events-none "}`}
 					aria-hidden={!isMenuOpened}
-					>
-						<OpenedNavMenu
-							setIsMenuOpen={setIsMenuOpen}
-							isMenuOpen={isMenuOpened}
-						/>
-					</div>
-
+				>
+					<OpenedNavMenu
+						setIsMenuOpen={setIsMenuOpen}
+						isMenuOpen={isMenuOpened}
+					/>
+				</div>
 			</nav>
 		</>
 	);

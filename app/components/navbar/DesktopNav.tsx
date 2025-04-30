@@ -6,7 +6,7 @@ export default function DesktopNav() {
 					<li>
 						<div>
 							<a
-								className="text-[20px] font-normal"
+								className="text-[20px] font-normal hover:font-bold"
 								href="#faq"
 							>
 								FAQs
@@ -16,7 +16,7 @@ export default function DesktopNav() {
 					<li>
 						<div>
 							<a
-								className="text-[20px] font-normal"
+								className="text-[20px] font-normal hover:font-bold"
 								href="#testimonial"
 							>
 								Testimonials
@@ -26,7 +26,7 @@ export default function DesktopNav() {
 					<li>
 						<div>
 							<a
-								className="text-[20px] font-normal p-4 bg-white border"
+								className="text-[20px] font-normal p-4 bg-white border hover:bg-gray-200"
 								href="#readytofranchise"
 							>
 								Ready to Franchise
