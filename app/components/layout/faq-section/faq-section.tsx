@@ -41,7 +41,7 @@ export default function FAQSection() {
 						key={faq.question}
 						className="bg-white rounded-lg border-[0.5px] border-charcoal-gray p-[10px]"
 					>
-						<summary className="text-charcoal-gray font-bold text-[1rem] pb-[10px] cursor-pointer focus:outline-offset-2 flex justify-between items-start gap-2">
+						<summary className="text-charcoal-gray font-bold text-[1rem] pb-[10px] cursor-pointer focus:outline-offset-2 flex justify-between items-start gap-2 hover:underline hover:underline-offset-2">
 							<span className="flex-1">
 								{faq.question}
 							</span>
