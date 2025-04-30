@@ -6,7 +6,7 @@ export default function FranchiseMetricsSection() {
 	return (
 		<>
 			<section
-				className="franchise-metrics-section bg-[url('/images/flour-dusted-horizontal.png')] bg-cover bg-center pt-[140px] bg-blend-overlay bg-[#ddc6bb66] px-6 pb-12"
+				className="franchise-metrics-section bg-[url('/images/flour-dusted-horizontal.png')] bg-cover bg-center pt-[140px] bg-blend-overlay bg-[#E8CABC]/60 px-6 pb-12"
 				id="whyGreatHarvest"
 			>
 				<div className="bg-white/70 p-6 shadow-md max-w-2xl mx-auto mb-8">
@@ -20,7 +20,7 @@ export default function FranchiseMetricsSection() {
 					</p>
 				</div>
 
-				<section className="flex flex-col gap-4 p-4 md:grid md:grid-cols-2 md:gap-8 lg:grid-cols-3 max-w-[1080px] mx-auto">
+				<section className="flex flex-col gap-10 p-4 md:grid md:grid-cols-2 md:gap-8 lg:grid-cols-3 max-w-[1080px] mx-auto">
 					{metricCardData.map((card, index) => (
 						<MetricCard
 							key={card.id}
