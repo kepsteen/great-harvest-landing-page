@@ -1,11 +1,13 @@
+'use client'
+import { Link } from 'react-scroll';
 import Image from "next/image";
 
-type Link = {
+type LinkType = {
 	title: string;
 	link: string;
 };
 
-const footerNavLinks: Link[] = [
+const footerNavLinks: LinkType[] = [
 	{
 		title: "Locations",
 		link: "https://www.greatharvest.com/local-bakery-information",
@@ -47,18 +49,15 @@ export default function Footer() {
 			<footer className="bg-charcoal-gray text-white">
 				<div className="flex flex-col items-center md:flex-row md:justify-between md:px-[60px] md:mx-auto py-[30px] lg:px-[80px]">
 					<div className="flex flex-row gap-[30px] items-center">
-						<a
-							href="https://www.greatharvest.com/"
-							className="cursor-pointer transform transition duration-200 hover:scale-105"
-							target="_blank"
-						>
+						<Link to="home" smooth={true} duration={100} offset={0}>
 							<Image
-								src="/logos/GHlogo-vertical.png"
-								alt="Great Harvest logo"
-								height={204}
-								width={122.4}
-							/>
-						</a>
+									src="/logos/GHlogo-vertical.png"
+									alt="Great Harvest logo"
+									className='cursor-pointer transform transition duration-200 hover:scale-105'
+									height={204}
+									width={122.4}
+								/>
+						</Link>
 						<div className="flex flex-col gap-y-5 items-center">
 							<ul className="flex flex-col gap-y-5">
 								{footerNavMap}

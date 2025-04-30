@@ -1,3 +1,5 @@
+import {Link} from 'react-scroll';
+
 export default function DesktopNav() {
 	return (
 		<>
@@ -5,32 +7,23 @@ export default function DesktopNav() {
 				<ul className="flex items-center gap-x-15">
 					<li>
 						<div>
-							<a
-								className="text-[20px] font-normal hover:font-bold"
-								href="#faq"
-							>
+							<Link to="faq" smooth={true} duration={100} offset={-100} className="text-[20px] font-normal hover:font-bold">
 								FAQs
-							</a>
+							</Link>
 						</div>
 					</li>
 					<li>
 						<div>
-							<a
-								className="text-[20px] font-normal hover:font-bold"
-								href="#testimonial"
-							>
+							<Link to="testimonial" smooth={true} duration={100} offset={-100} className="text-[20px] font-normal hover:font-bold">
 								Testimonials
-							</a>
+							</Link>
 						</div>
 					</li>
 					<li>
 						<div>
-							<a
-								className="text-[20px] font-normal p-4 bg-white border hover:bg-gray-200"
-								href="#readytofranchise"
-							>
+							<Link to="readytofranchise" smooth={true} duration={100} offset={-100} className="text-[20px] font-normal p-4 bg-white border hover:bg-gray-200">
 								Ready to Franchise
-							</a>
+							</Link>
 						</div>
 					</li>
 				</ul>

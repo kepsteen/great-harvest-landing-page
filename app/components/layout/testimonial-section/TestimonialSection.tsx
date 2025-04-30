@@ -4,11 +4,11 @@ export default function TestimonialSection() {
 	return (
 		<>
 			<section
-				className="bg-brand-blue py-28 pb-5 md:py-28"
+				className="bg-brand-blue py-12"
 				id="testimonial"
 			>
 				<div>
-					<h2 className="text-[48px] font-bold text-center text-white py-4 md:pt-0">
+					<h2 className="text-[48px] font-bold text-center text-white pb-4 md:pt-0">
 						Backed by Our Franchisees
 					</h2>
 					<div className="bg-white rounded-xl mx-5 px-6 md:px-9 pt-6 md:pb-6 md:grid md:grid-cols-[35%_65%] md:mx-[84px] place-self-center lg:w-3/5">
