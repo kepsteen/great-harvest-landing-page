@@ -4,7 +4,7 @@ export default function TheProcessSection() {
 	return (
 		<section
 			id="theProcess"
-			className="relative w-full bg-brand-blue"
+			className="relative w-full bg-[url('/images/GHBC-interior.png')] bg-cover bg-center"
 		>
 			<div className="py-16 w-full max-w-full mx-auto">
 				<div className="container mx-auto px-4 max-w-[342px] md:max-w-[632px] lg:max-w-[735px] text-brand-blue">
