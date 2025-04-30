@@ -27,7 +27,7 @@ export default function OpenedNavMenu({
 		<>
 			<div
 				id="mobile-nav-menu"
-				className="pt-5 bg-logo-orange rounded-b-xl text-black"
+				className="pt-5 bg-logo-orange rounded-b-xl text-white"
 			>
 				<h1 className="text-center text-[20px] font-ghModDisplay">
 					Jump to:
@@ -39,7 +39,7 @@ export default function OpenedNavMenu({
 				</div>
 				<div className="py-5 text-center">
 					<button
-						className="bg-brand-blue py-4 px-5 rounded-full text-white text-[20px] cursor-pointer"
+						className="bg-white py-4 px-5 rounded-full text-black text-[20px] cursor-pointer"
 						tabIndex={isMenuOpen ? 0 : -1}
 						onClick={() =>
 							setIsMenuOpen(!isMenuOpen)

@@ -8,6 +8,7 @@
 	background-size: 120%;
 	background-position: center 90%;
 	background-repeat: no-repeat;
+	min-height: 150vh;
 	}
 
 @media screen and (min-width: 640px) {
