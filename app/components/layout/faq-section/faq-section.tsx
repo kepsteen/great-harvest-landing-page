@@ -39,15 +39,16 @@ export default function FAQSection() {
 				{faqs.map((faq) => (
 					<details
 						key={faq.question}
-						className="bg-white rounded-lg border-[0.5px] border-charcoal-gray p-[10px]"
+						className="bg-white rounded-lg border-[0.5px] border-charcoal-gray p-[10px] open:border-logo-orange shadow-[4px_4px_4px_0px_#FFFFFF40] open:shadow-[4px_4px_4px_0px_#dd4a2f] open:border-[1.5px]"
+						name="faq"
 					>
-						<summary className="text-charcoal-gray font-bold text-[1rem] pb-[10px] cursor-pointer focus:outline-offset-2 flex justify-between items-start gap-2 hover:underline hover:underline-offset-2">
+						<summary className="text-charcoal-gray font-bold text-[1rem] cursor-pointer focus:outline-offset-2 flex justify-between items-start gap-2 hover:underline hover:underline-offset-2">
 							<span className="flex-1">
 								{faq.question}
 							</span>
 						</summary>
 						<div className="faq-answer-content">
-							<p className="text-[1rem] text-black py-[15px]">
+							<p className="text-[1rem] text-black">
 								{faq.answer}
 							</p>
 						</div>
