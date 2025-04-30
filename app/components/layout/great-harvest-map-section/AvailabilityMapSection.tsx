@@ -28,26 +28,26 @@ export default function AvailabilityMapSection() {
 							Which neighborhood will you share
 							Great Harvest with?
 						</p>
-					<div className="hidden mx-auto lg:flex justify-center py-7.5 gap-x-10">
-						<div className="flex">
-							<div className="w-7 h-7 rounded-full bg-[url('/decorative/map-cross.png')] bg-cover mr-2.5"></div>
-							<p className="text-lg font-ghSimpleBold">
-								High Availability
-							</p>
+						<div className="hidden mx-auto lg:flex justify-center py-7.5 gap-x-10">
+							<div className="flex">
+								<div className="w-7 h-7 rounded-full bg-[url('/decorative/map-cross.png')] bg-cover mr-2.5"></div>
+								<p className="text-lg font-ghSimpleBold">
+									High Availability
+								</p>
+							</div>
+							<div className="flex">
+								<div className="w-7 h-7 rounded-full bg-[url('/decorative/map-gray.png')] border border-brand-blue bg-cover mr-2.5 p-px"></div>
+								<p className="text-lg font-ghSimpleBold">
+									Mixed Availability
+								</p>
+							</div>
+							<div className="flex">
+								<div className="w-7 h-7 rounded-full bg-brand-blue mr-2.5"></div>
+								<p className="text-lg font-ghSimpleBold">
+									Low Availability
+								</p>
+							</div>
 						</div>
-						<div className="flex">
-							<div className="w-7 h-7 rounded-full bg-[url('/decorative/map-gray.png')] bg-cover mr-2.5"></div>
-							<p className="text-lg font-ghSimpleBold">
-								Mixed Availability
-							</p>
-						</div>
-						<div className="flex">
-							<div className="w-7 h-7 rounded-full bg-brand-blue mr-2.5"></div>
-							<p className="text-lg font-ghSimpleBold">
-								Low Availability
-							</p>
-						</div>
-					</div>
 					</div>
 					<div className="w-full">
 						<Image
@@ -60,19 +60,37 @@ export default function AvailabilityMapSection() {
 					</div>
 					<div className="mx-auto grid gap-y-2.5 lg:hidden">
 						<div className="flex">
-							<div className="w-7 h-7 rounded-full bg-[url('/decorative/map-cross.png')] bg-cover mr-2.5"></div>
+							<Image
+								src="/decorative/availability/high.svg"
+								alt="map cross"
+								width={28}
+								height={28}
+								className="mr-2.5"
+							/>
 							<p className="text-lg font-ghSimpleBold">
 								High Availability
 							</p>
 						</div>
 						<div className="flex">
-							<div className="w-7 h-7 rounded-full bg-[url('/decorative/map-gray.png')] bg-cover mr-2.5"></div>
+							<Image
+								src="/decorative/availability/mixed.svg"
+								alt="map cross"
+								width={28}
+								height={28}
+								className="mr-2.5"
+							/>
 							<p className="text-lg font-ghSimpleBold">
 								Mixed Availability
 							</p>
 						</div>
 						<div className="flex">
-							<div className="w-7 h-7 rounded-full bg-brand-blue mr-2.5"></div>
+							<Image
+								src="/decorative/availability/low.svg"
+								alt="map cross"
+								width={28}
+								height={28}
+								className="mr-2.5"
+							/>
 							<p className="text-lg font-ghSimpleBold">
 								Low Availability
 							</p>
