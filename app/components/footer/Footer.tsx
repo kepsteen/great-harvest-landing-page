@@ -45,7 +45,7 @@ export default function Footer() {
 	return (
 		<>
 			<footer className="bg-charcoal-gray text-white">
-				<div className="flex flex-col items-center md:flex-row md:justify-between md:px-[60px] md:mx-auto py-[30px]">
+				<div className="flex flex-col items-center md:flex-row md:justify-between md:px-[60px] md:mx-auto py-[30px] lg:px-[80px]">
 					<div className="flex flex-row gap-[30px] items-center">
 						<Image
 							src="/logos/GHlogo-vertical.png"
