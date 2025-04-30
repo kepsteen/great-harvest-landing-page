@@ -1,13 +1,12 @@
 import { metricCardData } from "./metric-data";
 import MetricCard from "./metric-card";
 
-// Reusable Card Component (can be extracted to its own file if preferred)
-
+// Reus: able Card Component (can be extracted to its own file if preferred)
 export default function FranchiseMetricsSection() {
 	return (
 		<>
 			<section
-				className="franchise-metrics-section bg-[url('/images/flour-dusted-vertical.png')] bg-cover bg-center pt-[50px] bg-blend-overlay bg-[#ddc6bb66] px-6 pb-12"
+				className="franchise-metrics-section bg-[url('/images/flour-dusted-horizontal.png')] bg-cover bg-center pt-[50px] bg-blend-overlay bg-[#ddc6bb66] px-6 pb-12"
 				id="whyGreatHarvest"
 			>
 				<div className="bg-white/30 p-6 rounded-xl shadow-md max-w-2xl mx-auto mb-8">
