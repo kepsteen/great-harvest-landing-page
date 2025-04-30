@@ -14,12 +14,9 @@ export default function DesktopNav() {
 					</li>
 					<li>
 						<div>
-							<a
-								className="text-[20px] font-normal hover:font-bold"
-								href="#testimonial"
-							>
+							<Link to="testimonial" smooth={true} duration={100} offset={-100} className="text-[20px] font-normal hover:font-bold">
 								Testimonials
-							</a>
+							</Link>
 						</div>
 					</li>
 					<li>

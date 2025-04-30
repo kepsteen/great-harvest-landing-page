@@ -14,7 +14,7 @@ export default function OpenedNavMenu({
 			className="py-4 border-b-[1px] text-[20px]"
 		>
 			<Link to={tab.href} tabIndex={isMenuOpen ? 0 : -1}
-				className="cursor-pointer hover:font-bold" offset={-100}
+				className="cursor-pointer hover:font-bold" duration={100} smooth={true} offset={-100}
 				onClick={() => setIsMenuOpen(!isMenuOpen)} >
 				{tab.title}
 			</Link>
