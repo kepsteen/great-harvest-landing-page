@@ -1,5 +1,5 @@
-'use client'
-import { Link } from 'react-scroll';
+"use client";
+import { Link } from "react-scroll";
 import Image from "next/image";
 
 type LinkType = {
@@ -49,14 +49,19 @@ export default function Footer() {
 			<footer className="bg-charcoal-gray text-white">
 				<div className="flex flex-col items-center md:flex-row md:justify-between md:px-[60px] md:mx-auto py-[30px] lg:px-[80px]">
 					<div className="flex flex-row gap-[30px] items-center">
-						<Link to="home" smooth={true} duration={100} offset={0}>
+						<Link
+							to="home"
+							smooth={true}
+							duration={100}
+							offset={0}
+						>
 							<Image
-									src="/logos/GHlogo-vertical.png"
-									alt="Great Harvest logo"
-									className='cursor-pointer transform transition duration-200 hover:scale-105'
-									height={204}
-									width={122.4}
-								/>
+								src="/logos/GHlogo-vertical.png"
+								alt="Great Harvest logo"
+								className="cursor-pointer transform transition duration-200 hover:scale-105"
+								height={204}
+								width={122.4}
+							/>
 						</Link>
 						<div className="flex flex-col gap-y-5 items-center">
 							<ul className="flex flex-col gap-y-5">
@@ -103,7 +108,7 @@ export default function Footer() {
 								className=" transform transition duration-200 hover:scale-105"
 							>
 								<Image
-									src={"/icons/x-logo.png"}
+									src={"/icons/x-logo.svg"}
 									alt="x (formerly twitter)"
 									width={32}
 									height={32}
