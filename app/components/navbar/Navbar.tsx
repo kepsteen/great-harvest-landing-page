@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import DesktopNav from "./DesktopNav";
 import MobileNav from "./MobileNav";
 import OpenedNavMenu from "./OpenedNavMenu";
-import {Link} from 'react-scroll'
+import { Link } from "react-scroll";
 
 export default function Navbar() {
 	const [isScrolled, setIsScrolled] =
@@ -56,16 +56,16 @@ export default function Navbar() {
 					/>
 					<DesktopNav />
 				</div>
-<div
-  id="mobile-menu"
-  className={`fixed top-[106px] right-0 w-full max-w-[400px] transition-all duration-200 ease-in-out transform
-    ${isMenuOpened
-      ? 'translate-y-0 opacity-100 min-[400px]:translate-x-0'
-      : '-translate-y-full opacity-0 pointer-events-none min-[400px]:translate-x-full min-[400px]:-translate-y-0'
-    }`}
-  aria-hidden={!isMenuOpened}
->
-
+				<div
+					id="mobile-menu"
+					className={`fixed top-[106px] right-0 w-full max-w-[400px] transition-all duration-200 ease-in-out transform
+    ${
+			isMenuOpened
+				? "translate-y-0 opacity-100 min-[400px]:translate-x-0"
+				: "-translate-y-full opacity-0 pointer-events-none min-[400px]:translate-x-full min-[400px]:-translate-y-0"
+		}`}
+					aria-hidden={!isMenuOpened}
+				>
 					<OpenedNavMenu
 						setIsMenuOpen={setIsMenuOpen}
 						isMenuOpen={isMenuOpened}
@@ -78,7 +78,7 @@ export default function Navbar() {
 				smooth={true}
 				offset={-150}
 				duration={100}
-				className={`fixed top-[107px] cursor-pointer left-0 w-full bg-brand-blue text-white text-center hover:font-bold text-[1.25rem] font-normal font-ghModDisplay py-3 z-40 md:hidden transition-all duration-300 ease-in-out transform ${isScrolled ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0 pointer-events-none"}`}
+				className={`fixed top-[107px] cursor-pointer left-0 w-full bg-brand-blue text-white text-center hover:font-bold text-[1.25rem] font-normal font-ghModDisplay py-3 z-40 lg:hidden transition-all duration-300 ease-in-out transform ${isScrolled ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0 pointer-events-none"}`}
 				aria-hidden={!isScrolled}
 			>
 				READY TO FRANCHISE
