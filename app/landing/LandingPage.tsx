@@ -6,7 +6,7 @@ export default function LandingPage() {
 		<>
 			<section
 				id="home"
-				className="landing-section pt-35 lg:pt-0 pb-[300px] relative"
+				className="landing-section pt-35 lg:pt-0 pb-[300px] md:pb-[500px] lg:pb-[180px] relative"
 			>
 				<div className="landing-section-wrapper">
 					<div className="">

@@ -4,7 +4,7 @@
 }
 
 	.landing-section {
-	background-image: url('/images/landing-hero.png');
+	background-image: url('/images/landing-hero1.png');
 	background-size: 120%;
 	background-position: center 90%;
 	background-repeat: no-repeat;
@@ -13,10 +13,9 @@
 @media screen and (min-width: 640px) {
 
 	.landing-section {
-	background-image: url('/images/landing-hero.png');
+	background-image: url('/images/landing-hero1.png');
 	background-size: 110%;
 	background-position: center 97%;
-	background-repeat: no-repeat;
 	}
 
 }
@@ -24,13 +23,16 @@
 @media screen and (min-width: 768px) {
 
 	.landing-section {
-	background-image: url('/images/landing-hero.png');
-	background-size: 110%;
-	background-position: center 97%;
-	background-repeat: no-repeat;
+	background-image: url('/images/landing-hero1.png');
+	background-size: 100%;
+	background-position: center 95%;
 	}
 }
 
 @media screen and (min-width: 1024px) {
-
+	.landing-section {
+	background-image: url('/images/landing-hero1.png');
+	background-size: 100%;
+	background-position: center 99%;
+	}
 }
