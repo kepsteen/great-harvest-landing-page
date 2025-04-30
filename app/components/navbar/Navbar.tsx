@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import DesktopNav from "./DesktopNav";
 import MobileNav from "./MobileNav";
 import OpenedNavMenu from "./OpenedNavMenu";
+import {Link} from 'react-scroll'
 
 export default function Navbar() {
 	const [isScrolled, setIsScrolled] =
@@ -67,13 +68,16 @@ export default function Navbar() {
 				</div>
 			</nav>
 			{/* Scroll-activated Mobile Banner */}
-			<a
-				href="#readytofranchise"
-				className={`fixed top-[107px] left-0 w-full bg-brand-blue text-white text-center hover:font-bold text-[1.25rem] font-normal font-ghModDisplay py-3 z-40 md:hidden transition-all duration-300 ease-in-out transform ${isScrolled ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0 pointer-events-none"}`}
+			<Link
+				to="readytofranchise"
+				smooth={true}
+				offset={-150}
+				duration={100}
+				className={`fixed top-[107px] cursor-pointer left-0 w-full bg-brand-blue text-white text-center hover:font-bold text-[1.25rem] font-normal font-ghModDisplay py-3 z-40 md:hidden transition-all duration-300 ease-in-out transform ${isScrolled ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0 pointer-events-none"}`}
 				aria-hidden={!isScrolled}
 			>
 				READY TO FRANCHISE
-			</a>
+			</Link>
 		</>
 	);
 }

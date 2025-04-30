@@ -18,7 +18,7 @@ export default function LandingPage() {
 									</h1>
 								</div>
 								<div className="w-full px-5 md:px-0 lg:pl-5 lg:pr-0">
-									<div className="px-7 py-2.5 md:py-5 bg-lightBeigeOp text-brandBlue font-bold font-ghPlain text-xl md:mx-[80px] lg:mx-0 ">
+									<div className="px-7 py-2.5 md:py-5 bg-lightBeigeOp text-brandBlue font-bold font-ghPlain text-xl md:mx-[80px] lg:mx-0 shadow-[0px_4px_4px_0px_#00000040]">
 										<p>
 											We&apos;re looking for
 											passionate entrepreneurs who
