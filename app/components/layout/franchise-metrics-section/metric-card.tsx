@@ -28,25 +28,9 @@ export default function MetricCard({
 
 				{/* --- SVG Badge with Text Overlay --- */}
 				<div
-					className="
-            absolute 
-            bottom-[-24px]
-            left-1/2 
-            transform -translate-x-1/2
-            w-[216px]
-            h-[48px]
-            bg-no-repeat
-            bg-center
-            bg-[length:100%_100%]
-            flex items-center justify-center
-            text-white 
-            italic
-            text-xl
-						font-ghPlain
-            px-4
-            z-10
-            whitespace-nowrap
-          "
+					className="absolute bottom-[-24px] left-1/2 transform -translate-x-1/2 w-[216px] h-[48px]
+            		bg-no-repeat bg-center bg-[length:100%_100%] flex items-center justify-center text-black italic
+            		text-xl	font-ghPlain px-4 z-10 whitespace-nowrap"
 					// Apply the background image using inline style
 					style={{
 						backgroundImage: `url('${card.badgeSvgPath}')`,

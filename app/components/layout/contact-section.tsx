@@ -163,7 +163,7 @@ export default function ContactSection() {
 			id="readyToFranchise"
 			className="mt-[-3px] bg-bgTan py-[30px] px-[20px] flex flex-col items-center gap-[40px] w-full lg:hidden max-w-[1040px]"
 		>
-			<h2 className="text-center text-[3rem] w-full leading-snug">
+			<h2 className="text-center font-bold text-[3rem] w-full leading-snug">
 				Contact Us and Let&apos;s Make Some Bread
 				together!
 			</h2>
