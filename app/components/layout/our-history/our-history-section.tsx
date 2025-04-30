@@ -25,7 +25,7 @@ export default function OurHistory() {
 						className="hidden md:block md:w-full md:h-[120px]"
 						style={{ objectFit: "contain" }}
 					/>
-					<h2 className="text-[48px] text-center mb-[15px]">
+					<h2 className="text-[48px] font-bold text-center mb-[15px]">
 						Our History
 					</h2>
 					<p className="text-[18px] leading-[25px] tracking-[0.2px] px-[24px] md:w-[628px] lg:w-[422px]">
