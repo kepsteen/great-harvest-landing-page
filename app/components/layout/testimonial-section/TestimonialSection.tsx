@@ -4,7 +4,7 @@ export default function TestimonialSection() {
 	return (
 		<>
 			<section
-				className="bg-brand-blue pt-10 pb-5 md:py-12.5"
+				className="bg-brand-blue py-28 pb-5 md:py-28"
 				id="testimonial"
 			>
 				<div>

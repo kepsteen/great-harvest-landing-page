@@ -30,7 +30,7 @@ export default function FAQSection() {
 	return (
 		<section
 			id="faq"
-			className="bg-dark-wood bg-[url('/decorative/chevron-background.svg')] bg-repeat px-[24px] py-[50px] sm:px-[80px] flex flex-col gap-[10px]"
+			className="bg-dark-wood bg-[url('/decorative/chevron-background.svg')] bg-repeat px-[24px] py-[150px] sm:px-[80px] flex flex-col gap-[10px]"
 		>
 			<div className="text-center font-bold flex items-center justify-center text-[3rem] mb-[10px] bg-[#c7a983] h-[85px] w-[255px] mx-auto text-black shadow-[0px_4px_4px_0px_#00000040]">
 				<h2>FAQs</h2>
@@ -41,12 +41,16 @@ export default function FAQSection() {
 						key={faq.question}
 						className="bg-white rounded-lg border-[0.5px] border-charcoal-gray p-[10px]"
 					>
-						<summary className="font-medium text-charcoal-gray text-[1rem] pb-[10px] cursor-pointer focus:outline-offset-2 flex justify-between items-start">
-							{faq.question}
+						<summary className="text-charcoal-gray font-bold text-[1rem] pb-[10px] cursor-pointer focus:outline-offset-2 flex justify-between items-start gap-2">
+							<span className="flex-1">
+								{faq.question}
+							</span>
 						</summary>
-						<p className="text-[1rem] text-black pb-[15px]">
-							{faq.answer}
-						</p>
+						<div className="faq-answer-content">
+							<p className="text-[1rem] text-black pb-[15px]">
+								{faq.answer}
+							</p>
+						</div>
 					</details>
 				))}
 			</div>
