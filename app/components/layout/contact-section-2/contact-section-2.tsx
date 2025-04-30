@@ -16,7 +16,7 @@ const customHubspotStyles = `
 	.hs-input:-ms-input-placeholder {
 		font-family: var(--font-ghSimple);
 	}
-	.hs-input::-ms-input-placeholder { 
+	.hs-input::-ms-input-placeholder {
 		font-family: var(--font-ghSimple);
 	}
 	.hsfc-TextInput .input input:focus-visible {

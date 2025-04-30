@@ -15,6 +15,8 @@ export default function Navbar() {
 			setIsScrolled(window.scrollY > 25);
 		};
 
+		handleScroll();
+
 		window.addEventListener(
 			"scroll",
 			handleScroll
