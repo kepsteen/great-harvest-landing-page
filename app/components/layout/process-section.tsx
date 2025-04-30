@@ -19,7 +19,7 @@ export default function TheProcessSection() {
 							using only Montana-grown wheat.
 						</p>
 					</div>
-					<div className="flex flex-col md:flex-row md:gap-[30px] bg-white/90 border border-black shadow-[4px_4px_4px_0px_#00000040] rounded-[20px] p-[20px] lg:px-[40px] mt-[20px] ">
+					<div className="flex flex-col items-center gap-[20px] md:flex-row md:gap-[30px] bg-white/90 border border-black shadow-[4px_4px_4px_0px_#00000040] rounded-[20px] p-[20px] lg:px-[40px] mt-[20px] ">
 						<ul className="flex flex-col gap-[15px]">
 							<li className="flex flex-row items-start gap-[15px]">
 								<Image
@@ -74,21 +74,10 @@ export default function TheProcessSection() {
 								</div>
 							</li>
 						</ul>
-						{/* <div className="relative hidden md:block w-full h-auto md:max-w-[281px]">
-							<Image
-								src="/images/southlake-interior.jpg"
-								alt="Great Harvest worker wearing a dark t-shirt prepares an item"
-								fill
-								objectFit="cover"
-								className="shadow-[4px_4px_4px_0px_#00000040]"
-							/>
-						</div> */}
-						<Image
+						<img
 							src="/images/southlake-interior.jpg"
 							alt="Great Harvest worker wearing a dark t-shirt prepares an item"
-							width={200}
-							height={136}
-							className="w-full object-cover object-bottom-left rounded-xl"
+							className="w-full md:object-[25%] object-cover rounded-xl md:w-[281px] md:h-[413px] lg:w-[330px] lg:h-[350px]"
 						/>
 					</div>
 				</div>
