@@ -32,7 +32,7 @@ export default function FAQSection() {
 			id="faq"
 			className="bg-dark-wood bg-[url('/decorative/chevron-background.svg')] bg-repeat px-[24px] py-[50px] sm:px-[80px] flex flex-col gap-[10px]"
 		>
-			<div className="text-center flex items-center justify-center text-[3rem] mb-[10px] bg-[#c7a983] h-[85px] w-[255px] mx-auto text-white shadow-[0px_4px_4px_0px_#00000040]">
+			<div className="text-center font-bold flex items-center justify-center text-[3rem] mb-[10px] bg-[#c7a983] h-[85px] w-[255px] mx-auto text-white shadow-[0px_4px_4px_0px_#00000040]">
 				<h2>FAQs</h2>
 			</div>
 			<div className="flex flex-col w-full max-w-[632px] mx-auto gap-[20px]">
