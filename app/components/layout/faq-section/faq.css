@@ -18,6 +18,16 @@ details[open]::details-content {
 	block-size: auto;
 } */
 
+.faq-answer-content {
+	display: grid;
+	grid-template-rows: 0fr;
+	transition: grid-template-rows 0.5s ease-out;
+}
+
+details[open] > .faq-answer-content {
+	grid-template-rows: 1fr;
+}
+
 summary::after {
 	content: "";
 	width: 18px;
