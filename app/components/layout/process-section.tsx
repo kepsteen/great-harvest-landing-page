@@ -4,12 +4,12 @@ export default function TheProcessSection() {
 	return (
 		<section
 			id="theProcess"
-			className="relative w-full bg-[url('/images/GHBC-interior.png')] bg-cover bg-center"
+			className="relative w-full bg-[url('/images/GHBC-interior.png')] bg-cover bg-center py-[60px]"
 		>
 			<div className="py-16 w-full max-w-full mx-auto">
-				<div className="container mx-auto px-4 max-w-[342px] md:max-w-[632px] lg:max-w-[735px] text-brand-blue">
+				<div className="container mx-auto px-4 max-w-[350px] md:max-w-[632px] lg:max-w-[735px] text-brand-blue">
 					<div className="text-center bg-white/90 border border-black shadow-[0px_4px_4px_0px_#00000040] p-[10px]">
-						<h2 className="text-[48px] mb-[20px] font-bold">
+						<h2 className="text-4xl md:text-[48px] mb-[20px] font-bold leading-tight">
 							Our Revolutionary Process
 						</h2>
 						<p className="text-[20px] font-ghPlain">
@@ -88,10 +88,6 @@ export default function TheProcessSection() {
 							alt="Great Harvest worker wearing a dark t-shirt prepares an item"
 							width={200}
 							height={136}
-							// style={{
-							// 	width: "100%",
-							// 	height: "auto",
-							// }}
 							className="w-full object-cover object-bottom-left rounded-xl"
 						/>
 					</div>
