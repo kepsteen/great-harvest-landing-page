@@ -28,6 +28,10 @@ details[open] > .faq-answer-content {
 	grid-template-rows: 1fr;
 }
 
+details summary::-webkit-details-marker {
+	display: none;
+}
+
 summary::after {
 	content: "";
 	width: 18px;
