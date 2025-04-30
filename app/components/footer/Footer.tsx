@@ -36,7 +36,7 @@ export default function Footer() {
 			<li key={index}>
 				<a
 					href={footerLink.link}
-					className="text-[15px]"
+					className="text-[15px] hover:font-bold"
 				>
 					{footerLink.title}
 				</a>
@@ -51,14 +51,13 @@ export default function Footer() {
 					<div className="flex flex-row gap-[30px] items-center">
 						<Link to="home" smooth={true} duration={100} offset={0}>
 							<Image
-								src="/logos/GHlogo-vertical.png"
-								alt="Great Harvest logo"
-								className='cursor-pointer'
-								height={204}
-								width={122.4}
-							/>
+									src="/logos/GHlogo-vertical.png"
+									alt="Great Harvest logo"
+									className='cursor-pointer transform transition duration-200 hover:scale-105'
+									height={204}
+									width={122.4}
+								/>
 						</Link>
-
 						<div className="flex flex-col gap-y-5 items-center">
 							<ul className="flex flex-col gap-y-5">
 								{footerNavMap}
@@ -99,7 +98,10 @@ export default function Footer() {
 							</div>
 						</div>
 						<div className="flex flex-row items-center justify-center gap-x-5 pt-5">
-							<a href="https://twitter.com/GreatHarvest">
+							<a
+								href="https://twitter.com/GreatHarvest"
+								className=" transform transition duration-200 hover:scale-105"
+							>
 								<Image
 									src={"/icons/x-logo.png"}
 									alt="x (formerly twitter)"
@@ -107,7 +109,10 @@ export default function Footer() {
 									height={32}
 								/>
 							</a>
-							<a href="https://www.facebook.com/GreatHarvestBreadCo/">
+							<a
+								href="https://www.facebook.com/GreatHarvestBreadCo/"
+								className=" transform transition duration-200 hover:scale-105"
+							>
 								<Image
 									src={"/icons/facebook-logo.svg"}
 									alt="facebook"
@@ -115,7 +120,10 @@ export default function Footer() {
 									height={41}
 								/>
 							</a>
-							<a href="https://www.linkedin.com/company/great-harvest-bread-co.">
+							<a
+								href="https://www.linkedin.com/company/great-harvest-bread-co."
+								className=" transform transition duration-200 hover:scale-105"
+							>
 								<Image
 									src={"/icons/linkedin-logo.svg"}
 									alt="linkedin"
