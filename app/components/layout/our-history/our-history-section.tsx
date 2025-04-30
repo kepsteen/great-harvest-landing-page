@@ -4,7 +4,7 @@ export default function OurHistory() {
 	return (
 		<section
 			id="ourHistory"
-			className="bg-wheat-light flex flex-col lg:flex-row items-center lg:justify-center lg:gap-[50px] py-[25px] lg:py-[50px]"
+			className="bg-wheat-light flex flex-col lg:flex-row items-center lg:justify-center lg:gap-[50px] py-[100px] lg:py-[50px]"
 		>
 			<div className="w-[383px] h-[640px] relative md:w-[702px] md:h-[526px] lg:w-[522px] lg:h-[600px]">
 				<img
