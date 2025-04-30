@@ -7,26 +7,26 @@ export const navMenuData: NavMenuDataInterface[] =
 	[
 		{
 			title: "Franchise Interest Form",
-			href: "#home",
+			href: "home",
 		},
 		{
 			title: "Our History",
-			href: "#ourHistory",
+			href: "ourHistory",
 		},
 		{
 			title: "Why Great Harvest",
-			href: "#whyGreatHarvest",
+			href: "whyGreatHarvest",
 		},
 		{
 			title: "Franchises Tesimonials",
-			href: "#testimonial",
+			href: "testimonial",
 		},
 		{
 			title: "Our Revolutionary Process",
-			href: "#theProcess",
+			href: "theProcess",
 		},
 		{
 			title: "FAQs",
-			href: "#faq",
+			href: "faq",
 		},
 	];

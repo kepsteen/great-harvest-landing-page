@@ -1,4 +1,5 @@
 import { navMenuData } from "./data/nav-menu-data";
+import {Link} from 'react-scroll';
 
 export default function OpenedNavMenu({
 	isMenuOpen,
@@ -12,14 +13,11 @@ export default function OpenedNavMenu({
 			key={index}
 			className="py-4 border-b-[1px] text-[20px]"
 		>
-			<a
-				href={tab.href}
-				tabIndex={isMenuOpen ? 0 : -1}
-				className="cursor-pointer hover:font-bold"
-				onClick={() => setIsMenuOpen(!isMenuOpen)}
-			>
+			<Link to={tab.href} tabIndex={isMenuOpen ? 0 : -1}
+				className="cursor-pointer hover:font-bold" offset={-100}
+				onClick={() => setIsMenuOpen(!isMenuOpen)} >
 				{tab.title}
-			</a>
+			</Link>
 		</li>
 	));
 
