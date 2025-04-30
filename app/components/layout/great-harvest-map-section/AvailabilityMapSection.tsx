@@ -28,15 +28,15 @@ export default function AvailabilityMapSection() {
 							Which neighborhood will you share
 							Great Harvest with?
 						</p>
-					<div className="hidden mx-auto lg:flex py-7.5">
+					<div className="hidden mx-auto lg:flex justify-center py-7.5 gap-x-10">
 						<div className="flex">
-							<div className="w-7 h-7 rounded-full bg-white bg-cover mr-2.5"></div>
+							<div className="w-7 h-7 rounded-full bg-[url('/decorative/map-cross.png')] bg-cover mr-2.5"></div>
 							<p className="text-lg font-ghSimpleBold">
 								High Availability
 							</p>
 						</div>
 						<div className="flex">
-							<div className="w-7 h-7 rounded-full bg-[url('/decorative/dots.png')] bg-cover mr-2.5"></div>
+							<div className="w-7 h-7 rounded-full bg-[url('/decorative/map-gray.png')] bg-cover mr-2.5"></div>
 							<p className="text-lg font-ghSimpleBold">
 								Mixed Availability
 							</p>
@@ -60,13 +60,13 @@ export default function AvailabilityMapSection() {
 					</div>
 					<div className="mx-auto grid gap-y-2.5 lg:hidden">
 						<div className="flex">
-							<div className="w-7 h-7 rounded-full bg-white bg-cover mr-2.5"></div>
+							<div className="w-7 h-7 rounded-full bg-[url('/decorative/map-cross.png')] bg-cover mr-2.5"></div>
 							<p className="text-lg font-ghSimpleBold">
 								High Availability
 							</p>
 						</div>
 						<div className="flex">
-							<div className="w-7 h-7 rounded-full bg-[url('/decorative/dots.png')] bg-cover mr-2.5"></div>
+							<div className="w-7 h-7 rounded-full bg-[url('/decorative/map-gray.png')] bg-cover mr-2.5"></div>
 							<p className="text-lg font-ghSimpleBold">
 								Mixed Availability
 							</p>
